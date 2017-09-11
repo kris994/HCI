@@ -1,0 +1,856 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{99D445DE-4F11-43E9-9C0F-BC47E0594395}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mapa_Kafića</RootNamespace>
+    <AssemblyName>Mapa Kafića</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClosedXML, Version=0.76.0.0, Culture=neutral, PublicKeyToken=fd1eb21b62ae805b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>C:\Program Files\System.Data.SQLite\2010\bin\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="ImagedComboBox">
+      <HintPath>bin\Release\ImagedComboBox.exe</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.96.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.96.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="checkB_liste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="checkB_liste.Designer.cs">
+      <DependentUpon>checkB_liste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="customPB.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="customPB.Designer.cs">
+      <DependentUpon>customPB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DodajEtiketu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DodajEtiketu.Designer.cs">
+      <DependentUpon>DodajEtiketu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EtiketaPrikaz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EtiketaPrikaz.Designer.cs">
+      <DependentUpon>EtiketaPrikaz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="infoToolTip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="infoToolTip.Designer.cs">
+      <DependentUpon>infoToolTip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LokalPrikaz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LokalPrikaz.Designer.cs">
+      <DependentUpon>LokalPrikaz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SQLiteCRUD.cs" />
+    <Compile Include="DodavanjeKafica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DodavanjeKafica.Designer.cs">
+      <DependentUpon>DodavanjeKafica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DodajTip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DodajTip.Designer.cs">
+      <DependentUpon>DodajTip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrikazTabelarno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrikazTabelarno.Designer.cs">
+      <DependentUpon>PrikazTabelarno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pocetna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pocetna.Designer.cs">
+      <DependentUpon>Pocetna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tab.Designer.cs">
+      <DependentUpon>Tab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TipPrikaz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TipPrikaz.Designer.cs">
+      <DependentUpon>TipPrikaz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TutorialIntro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TutorialIntro.Designer.cs">
+      <DependentUpon>TutorialIntro.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="checkB_liste.resx">
+      <DependentUpon>checkB_liste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DodajEtiketu.resx">
+      <DependentUpon>DodajEtiketu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DodavanjeKafica.resx">
+      <DependentUpon>DodavanjeKafica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DodajTip.resx">
+      <DependentUpon>DodajTip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EtiketaPrikaz.resx">
+      <DependentUpon>EtiketaPrikaz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="infoToolTip.resx">
+      <DependentUpon>infoToolTip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LokalPrikaz.resx">
+      <DependentUpon>LokalPrikaz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrikazTabelarno.resx">
+      <DependentUpon>PrikazTabelarno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pocetna.resx">
+      <DependentUpon>Pocetna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Tab.resx">
+      <DependentUpon>Tab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TipPrikaz.resx">
+      <DependentUpon>TipPrikaz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TutorialIntro.resx">
+      <DependentUpon>TutorialIntro.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="err.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ok.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\39.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\44.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\46.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\47.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\49.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\53.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\54.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\55.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\56.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\57.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\59.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\62.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\63.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\65.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\66.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\67.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\68.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\69.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\70.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\73.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\74.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\75.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\76.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\77.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\78.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\79.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\81.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\82.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\83.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\84.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\85.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\86.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\87.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\88.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\89.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\91.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\92.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\93.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\94.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\95.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\97.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\98.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\99.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\101.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\102.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\103.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\104.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\105.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\106.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\107.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\108.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\109.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\110.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\112.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\113.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\114.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\115.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\116.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\117.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\118.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\119.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\120.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\124.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\125.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\126.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\127.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\129.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\130.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\131.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\132.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\133.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\134.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\135.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\136.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\137.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\138.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\139.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\140.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\141.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\142.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\143.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\144.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\145.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\146.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\147.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\148.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\149.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\150.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\151.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\152.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\153.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\154.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\155.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\156.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\157.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\158.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\159.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\160.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\162.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\163.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\164.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\165.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\166.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\167.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\168.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\169.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\170.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\171.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\172.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\173.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\174.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\175.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\176.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\177.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\178.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\179.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\181.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\182.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\183.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\184.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\185.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\186.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\187.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\188.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\189.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\190.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\191.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\192.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\193.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\194.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\195.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\196.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\197.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\198.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\199.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tipIcons\200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Fakes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow-keys.jpg" />
+    <Content Include="Resources\map.jpg" />
+    <None Include="Resources\TabKey.png" />
+    <None Include="tipIcons\null.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

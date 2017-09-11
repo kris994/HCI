@@ -1,0 +1,2915 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ImagedComboBox.1.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:ComboxExtended.Fakes.ShimComboBoxItem">
+            <summary>Shim type of ComboxExtended.ComboBoxItem</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimComboBoxItem.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimComboBoxItem.#ctor(ComboxExtended.ComboBoxItem)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimComboBoxItem.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimComboBoxItem.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboBoxItem.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboBoxItem.Constructor">
+            <summary>Sets the shim of ComboBoxItem.ComboBoxItem()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboBoxItem.ConstructorObject">
+            <summary>Sets the shim of ComboBoxItem.ComboBoxItem(Object value)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboBoxItem.ConstructorObjectImage">
+            <summary>Sets the shim of ComboBoxItem.ComboBoxItem(Object value, Image image)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboBoxItem.ImageGet">
+            <summary>Sets the shim of ComboBoxItem.get_Image()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboBoxItem.ImageSetImage">
+            <summary>Sets the shim of ComboBoxItem.set_Image(Image value)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboBoxItem.ToString">
+            <summary>Sets the shim of ComboBoxItem.ToString()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboBoxItem.ValueGet">
+            <summary>Sets the shim of ComboBoxItem.get_Value()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboBoxItem.ValueSetObject">
+            <summary>Sets the shim of ComboBoxItem.set_Value(Object value)</summary>
+        </member>
+        <member name="T:ComboxExtended.Fakes.ShimComboBoxItem.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboBoxItem.AllInstances.ImageGet">
+            <summary>Sets the shim of ComboBoxItem.get_Image()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboBoxItem.AllInstances.ImageSetImage">
+            <summary>Sets the shim of ComboBoxItem.set_Image(Image value)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboBoxItem.AllInstances.ToString01">
+            <summary>Sets the shim of ComboBoxItem.ToString()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboBoxItem.AllInstances.ValueGet">
+            <summary>Sets the shim of ComboBoxItem.get_Value()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboBoxItem.AllInstances.ValueSetObject">
+            <summary>Sets the shim of ComboBoxItem.set_Value(Object value)</summary>
+        </member>
+        <member name="T:ComboxExtended.Fakes.ShimComboCollection`1">
+            <summary>Shim type of ComboxExtended.ComboCollection`1</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimComboCollection`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimComboCollection`1.#ctor(ComboxExtended.ComboCollection{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimComboCollection`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimComboCollection`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimComboCollection`1.Bind(System.Collections.ICollection)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimComboCollection`1.Bind(System.Collections.IEnumerable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimComboCollection`1.Bind(System.Collections.IList)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboCollection`1.AddComboBoxItem">
+            <summary>Sets the shim of ComboCollection`1.Add(ComboBoxItem value)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboCollection`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboCollection`1.Constructor">
+            <summary>Sets the shim of ComboCollection`1.ComboCollection`1()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboCollection`1.ContainsComboBoxItem">
+            <summary>Sets the shim of ComboCollection`1.Contains(ComboBoxItem value)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboCollection`1.IndexOfComboBoxItem">
+            <summary>Sets the shim of ComboCollection`1.IndexOf(ComboBoxItem value)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboCollection`1.InsertInt32ComboBoxItem">
+            <summary>Sets the shim of ComboCollection`1.Insert(Int32 index, ComboBoxItem value)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboCollection`1.ItemGetInt32">
+            <summary>Sets the shim of ComboCollection`1.get_Item(Int32 index)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboCollection`1.ItemSetInt32ComboBoxItem">
+            <summary>Sets the shim of ComboCollection`1.set_Item(Int32 index, ComboBoxItem value)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboCollection`1.ItemsBaseGet">
+            <summary>Sets the shim of ComboCollection`1.get_ItemsBase()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboCollection`1.ItemsBaseSetComboBoxObjectCollection">
+            <summary>Sets the shim of ComboCollection`1.set_ItemsBase(ObjectCollection value)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboCollection`1.RemoveComboBoxItem">
+            <summary>Sets the shim of ComboCollection`1.Remove(ComboBoxItem value)</summary>
+        </member>
+        <member name="T:ComboxExtended.Fakes.ShimComboCollection`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboCollection`1.AllInstances.AddComboBoxItem">
+            <summary>Sets the shim of ComboCollection`1.Add(ComboBoxItem value)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboCollection`1.AllInstances.ContainsComboBoxItem">
+            <summary>Sets the shim of ComboCollection`1.Contains(ComboBoxItem value)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboCollection`1.AllInstances.IndexOfComboBoxItem">
+            <summary>Sets the shim of ComboCollection`1.IndexOf(ComboBoxItem value)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboCollection`1.AllInstances.InsertInt32ComboBoxItem">
+            <summary>Sets the shim of ComboCollection`1.Insert(Int32 index, ComboBoxItem value)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboCollection`1.AllInstances.ItemGetInt32">
+            <summary>Sets the shim of ComboCollection`1.get_Item(Int32 index)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboCollection`1.AllInstances.ItemSetInt32ComboBoxItem">
+            <summary>Sets the shim of ComboCollection`1.set_Item(Int32 index, ComboBoxItem value)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboCollection`1.AllInstances.ItemsBaseGet">
+            <summary>Sets the shim of ComboCollection`1.get_ItemsBase()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboCollection`1.AllInstances.ItemsBaseSetComboBoxObjectCollection">
+            <summary>Sets the shim of ComboCollection`1.set_ItemsBase(ObjectCollection value)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimComboCollection`1.AllInstances.RemoveComboBoxItem">
+            <summary>Sets the shim of ComboCollection`1.Remove(ComboBoxItem value)</summary>
+        </member>
+        <member name="T:ComboxExtended.Fakes.ShimForm1">
+            <summary>Shim type of ComboxExtended.Form1</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimForm1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimForm1.#ctor(ComboxExtended.Form1)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimForm1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimForm1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimForm1.Bind(System.ComponentModel.IComponent)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimForm1.Bind(System.ComponentModel.ISynchronizeInvoke)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimForm1.Bind(System.Windows.Forms.IBindableComponent)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimForm1.Bind(System.Windows.Forms.IContainerControl)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimForm1.Bind(System.Windows.Forms.IDropTarget)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimForm1.Bind(System.Windows.Forms.IWin32Window)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimForm1.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimForm1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimForm1.Constructor">
+            <summary>Sets the shim of Form1.Form1()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimForm1.DisposeBoolean">
+            <summary>Sets the shim of Form1.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimForm1.InitializeComponent">
+            <summary>Sets the shim of Form1.InitializeComponent()</summary>
+        </member>
+        <member name="T:ComboxExtended.Fakes.ShimForm1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimForm1.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of Form1.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimForm1.AllInstances.InitializeComponent">
+            <summary>Sets the shim of Form1.InitializeComponent()</summary>
+        </member>
+        <member name="T:ComboxExtended.Fakes.ShimImagedComboBox">
+            <summary>Shim type of ComboxExtended.ImagedComboBox</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimImagedComboBox.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimImagedComboBox.#ctor(ComboxExtended.ImagedComboBox)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimImagedComboBox.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimImagedComboBox.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimImagedComboBox.Bind(System.ComponentModel.IComponent)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimImagedComboBox.Bind(System.ComponentModel.ISynchronizeInvoke)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimImagedComboBox.Bind(System.Windows.Forms.IBindableComponent)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimImagedComboBox.Bind(System.Windows.Forms.IDropTarget)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimImagedComboBox.Bind(System.Windows.Forms.IWin32Window)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.ShimImagedComboBox.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimImagedComboBox.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimImagedComboBox.ComboBox1_MeasureItemObjectMeasureItemEventArgs">
+            <summary>Sets the shim of ImagedComboBox.ComboBox1_MeasureItem(Object sender, MeasureItemEventArgs e)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimImagedComboBox.ComboBoxDrawItemEventObjectDrawItemEventArgs">
+            <summary>Sets the shim of ImagedComboBox.ComboBoxDrawItemEvent(Object sender, DrawItemEventArgs e)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimImagedComboBox.Constructor">
+            <summary>Sets the shim of ImagedComboBox.ImagedComboBox()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimImagedComboBox.CreateControlsInstance">
+            <summary>Sets the shim of ImagedComboBox.CreateControlsInstance()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimImagedComboBox.ItemsGet">
+            <summary>Sets the shim of ImagedComboBox.get_Items()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimImagedComboBox.ItemsSetComboCollectionOfComboBoxItem">
+            <summary>Sets the shim of ImagedComboBox.set_Items(ComboCollection`1&lt;ComboBoxItem&gt; value)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimImagedComboBox.UpdateItemsObjectEventArgs">
+            <summary>Sets the shim of ImagedComboBox.UpdateItems(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="T:ComboxExtended.Fakes.ShimImagedComboBox.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimImagedComboBox.AllInstances.ComboBox1_MeasureItemObjectMeasureItemEventArgs">
+            <summary>Sets the shim of ImagedComboBox.ComboBox1_MeasureItem(Object sender, MeasureItemEventArgs e)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimImagedComboBox.AllInstances.ComboBoxDrawItemEventObjectDrawItemEventArgs">
+            <summary>Sets the shim of ImagedComboBox.ComboBoxDrawItemEvent(Object sender, DrawItemEventArgs e)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimImagedComboBox.AllInstances.CreateControlsInstance">
+            <summary>Sets the shim of ImagedComboBox.CreateControlsInstance()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimImagedComboBox.AllInstances.ItemsGet">
+            <summary>Sets the shim of ImagedComboBox.get_Items()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimImagedComboBox.AllInstances.ItemsSetComboCollectionOfComboBoxItem">
+            <summary>Sets the shim of ImagedComboBox.set_Items(ComboCollection`1&lt;ComboBoxItem&gt; value)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.ShimImagedComboBox.AllInstances.UpdateItemsObjectEventArgs">
+            <summary>Sets the shim of ImagedComboBox.UpdateItems(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="T:ComboxExtended.Fakes.StubComboBoxItem">
+            <summary>Stub type of ComboxExtended.ComboBoxItem</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubComboBoxItem.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubComboBoxItem.#ctor(System.Object)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubComboBoxItem.#ctor(System.Object,System.Drawing.Image)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubComboBoxItem.InitializeStub">
+            <summary>Initializes a new instance of type StubComboBoxItem</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubComboBoxItem.ToString">
+            <summary>Sets the stub of ComboBoxItem.ToString()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubComboBoxItem.ToString01">
+            <summary>Sets the stub of ComboBoxItem.ToString()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubComboBoxItem.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubComboBoxItem.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubComboBoxItem.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ComboxExtended.Fakes.StubComboCollection`1">
+            <summary>Stub type of ComboxExtended.ComboCollection`1</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubComboCollection`1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubComboCollection`1.InitializeStub">
+            <summary>Initializes a new instance of type StubComboCollection</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubComboCollection`1.OnClear">
+            <summary>Sets the stub of CollectionBase.OnClear()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubComboCollection`1.OnClear01">
+            <summary>Sets the stub of CollectionBase.OnClear()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubComboCollection`1.OnClearComplete">
+            <summary>Sets the stub of CollectionBase.OnClearComplete()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubComboCollection`1.OnClearComplete01">
+            <summary>Sets the stub of CollectionBase.OnClearComplete()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubComboCollection`1.OnInsert(System.Int32,System.Object)">
+            <summary>Sets the stub of CollectionBase.OnInsert(Int32 index, Object value)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubComboCollection`1.OnInsertComplete(System.Int32,System.Object)">
+            <summary>Sets the stub of CollectionBase.OnInsertComplete(Int32 index, Object value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubComboCollection`1.OnInsertCompleteInt32Object">
+            <summary>Sets the stub of CollectionBase.OnInsertComplete(Int32 index, Object value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubComboCollection`1.OnInsertInt32Object">
+            <summary>Sets the stub of CollectionBase.OnInsert(Int32 index, Object value)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubComboCollection`1.OnRemove(System.Int32,System.Object)">
+            <summary>Sets the stub of CollectionBase.OnRemove(Int32 index, Object value)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubComboCollection`1.OnRemoveComplete(System.Int32,System.Object)">
+            <summary>Sets the stub of CollectionBase.OnRemoveComplete(Int32 index, Object value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubComboCollection`1.OnRemoveCompleteInt32Object">
+            <summary>Sets the stub of CollectionBase.OnRemoveComplete(Int32 index, Object value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubComboCollection`1.OnRemoveInt32Object">
+            <summary>Sets the stub of CollectionBase.OnRemove(Int32 index, Object value)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubComboCollection`1.OnSet(System.Int32,System.Object,System.Object)">
+            <summary>Sets the stub of CollectionBase.OnSet(Int32 index, Object oldValue, Object newValue)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubComboCollection`1.OnSetComplete(System.Int32,System.Object,System.Object)">
+            <summary>Sets the stub of CollectionBase.OnSetComplete(Int32 index, Object oldValue, Object newValue)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubComboCollection`1.OnSetCompleteInt32ObjectObject">
+            <summary>Sets the stub of CollectionBase.OnSetComplete(Int32 index, Object oldValue, Object newValue)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubComboCollection`1.OnSetInt32ObjectObject">
+            <summary>Sets the stub of CollectionBase.OnSet(Int32 index, Object oldValue, Object newValue)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubComboCollection`1.OnValidate(System.Object)">
+            <summary>Sets the stub of CollectionBase.OnValidate(Object value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubComboCollection`1.OnValidateObject">
+            <summary>Sets the stub of CollectionBase.OnValidate(Object value)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubComboCollection`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubComboCollection`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubComboCollection`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ComboxExtended.Fakes.StubForm1">
+            <summary>Stub type of ComboxExtended.Form1</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AdjustFormScrollbars(System.Boolean)">
+            <summary>Sets the stub of Form.AdjustFormScrollbars(Boolean displayScrollbars)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.AdjustFormScrollbarsBoolean">
+            <summary>Sets the stub of Form.AdjustFormScrollbars(Boolean displayScrollbars)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.AllowDropGet">
+            <summary>Sets the stub of Control.get_AllowDrop()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.AllowDropSetBoolean">
+            <summary>Sets the stub of Control.set_AllowDrop(Boolean value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.AnchorGet">
+            <summary>Sets the stub of Control.get_Anchor()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.AnchorSetAnchorStyles">
+            <summary>Sets the stub of Control.set_Anchor(AnchorStyles value)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToAllowDrop">
+            <summary>Attaches delegates to emulate StubForm1.AllowDrop as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToAnchor">
+            <summary>Attaches delegates to emulate StubForm1.Anchor as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToAutoScaleBaseSize">
+            <summary>Attaches delegates to emulate StubForm1.AutoScaleBaseSize as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToAutoScroll">
+            <summary>Attaches delegates to emulate StubForm1.AutoScroll as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToAutoScrollOffset">
+            <summary>Attaches delegates to emulate StubForm1.AutoScrollOffset as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToAutoSize">
+            <summary>Attaches delegates to emulate StubForm1.AutoSize as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToAutoValidate">
+            <summary>Attaches delegates to emulate StubForm1.AutoValidate as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToBackColor">
+            <summary>Attaches delegates to emulate StubForm1.BackColor as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToBackgroundImage">
+            <summary>Attaches delegates to emulate StubForm1.BackgroundImage as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToBackgroundImageLayout">
+            <summary>Attaches delegates to emulate StubForm1.BackgroundImageLayout as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToBindingContext">
+            <summary>Attaches delegates to emulate StubForm1.BindingContext as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToContextMenu">
+            <summary>Attaches delegates to emulate StubForm1.ContextMenu as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToContextMenuStrip">
+            <summary>Attaches delegates to emulate StubForm1.ContextMenuStrip as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToCursor">
+            <summary>Attaches delegates to emulate StubForm1.Cursor as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToDock">
+            <summary>Attaches delegates to emulate StubForm1.Dock as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToDoubleBuffered">
+            <summary>Attaches delegates to emulate StubForm1.DoubleBuffered as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToFont">
+            <summary>Attaches delegates to emulate StubForm1.Font as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToForeColor">
+            <summary>Attaches delegates to emulate StubForm1.ForeColor as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToImeModeBase">
+            <summary>Attaches delegates to emulate StubForm1.ImeModeBase as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToMaximumSize">
+            <summary>Attaches delegates to emulate StubForm1.MaximumSize as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToMinimumSize">
+            <summary>Attaches delegates to emulate StubForm1.MinimumSize as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToRightToLeft">
+            <summary>Attaches delegates to emulate StubForm1.RightToLeft as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToRightToLeftLayout">
+            <summary>Attaches delegates to emulate StubForm1.RightToLeftLayout as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToSite">
+            <summary>Attaches delegates to emulate StubForm1.Site as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.AttachBackingFieldToText">
+            <summary>Attaches delegates to emulate StubForm1.Text as a property with a backing field.</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.AutoScaleBaseSizeGet">
+            <summary>Sets the stub of Form.get_AutoScaleBaseSize()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.AutoScaleBaseSizeSetSize">
+            <summary>Sets the stub of Form.set_AutoScaleBaseSize(Size value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.AutoScrollGet">
+            <summary>Sets the stub of Form.get_AutoScroll()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.AutoScrollOffsetGet">
+            <summary>Sets the stub of Control.get_AutoScrollOffset()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.AutoScrollOffsetSetPoint">
+            <summary>Sets the stub of Control.set_AutoScrollOffset(Point value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.AutoScrollSetBoolean">
+            <summary>Sets the stub of Form.set_AutoScroll(Boolean value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.AutoSizeGet">
+            <summary>Sets the stub of Form.get_AutoSize()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.AutoSizeSetBoolean">
+            <summary>Sets the stub of Form.set_AutoSize(Boolean value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.AutoValidateGet">
+            <summary>Sets the stub of Form.get_AutoValidate()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.AutoValidateSetAutoValidate">
+            <summary>Sets the stub of Form.set_AutoValidate(AutoValidate value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.BackColorGet">
+            <summary>Sets the stub of Form.get_BackColor()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.BackColorSetColor">
+            <summary>Sets the stub of Form.set_BackColor(Color value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.BackgroundImageGet">
+            <summary>Sets the stub of Control.get_BackgroundImage()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.BackgroundImageLayoutGet">
+            <summary>Sets the stub of Control.get_BackgroundImageLayout()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.BackgroundImageLayoutSetImageLayout">
+            <summary>Sets the stub of Control.set_BackgroundImageLayout(ImageLayout value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.BackgroundImageSetImage">
+            <summary>Sets the stub of Control.set_BackgroundImage(Image value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.BindingContextGet">
+            <summary>Sets the stub of ContainerControl.get_BindingContext()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.BindingContextSetBindingContext">
+            <summary>Sets the stub of ContainerControl.set_BindingContext(BindingContext value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.CanEnableImeGet">
+            <summary>Sets the stub of ContainerControl.get_CanEnableIme()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.CanRaiseEventsGet">
+            <summary>Sets the stub of Control.get_CanRaiseEvents()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ContextMenuGet">
+            <summary>Sets the stub of Control.get_ContextMenu()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ContextMenuSetContextMenu">
+            <summary>Sets the stub of Control.set_ContextMenu(ContextMenu value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ContextMenuStripGet">
+            <summary>Sets the stub of Control.get_ContextMenuStrip()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ContextMenuStripSetContextMenuStrip">
+            <summary>Sets the stub of Control.set_ContextMenuStrip(ContextMenuStrip value)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.CreateAccessibilityInstance">
+            <summary>Sets the stub of Control.CreateAccessibilityInstance()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.CreateAccessibilityInstance01">
+            <summary>Sets the stub of Control.CreateAccessibilityInstance()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.CreateControlsInstance">
+            <summary>Sets the stub of Form.CreateControlsInstance()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.CreateControlsInstance01">
+            <summary>Sets the stub of Form.CreateControlsInstance()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.CreateHandle">
+            <summary>Sets the stub of Form.CreateHandle()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.CreateHandle01">
+            <summary>Sets the stub of Form.CreateHandle()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.CreateParamsGet">
+            <summary>Sets the stub of Form.get_CreateParams()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.CursorGet">
+            <summary>Sets the stub of Control.get_Cursor()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.CursorSetCursor">
+            <summary>Sets the stub of Control.set_Cursor(Cursor value)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.DefWndProc(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Form.DefWndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.DefWndProcMessageRef">
+            <summary>Sets the stub of Form.DefWndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.DefaultCursorGet">
+            <summary>Sets the stub of Control.get_DefaultCursor()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.DefaultImeModeGet">
+            <summary>Sets the stub of Form.get_DefaultImeMode()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.DefaultMarginGet">
+            <summary>Sets the stub of Control.get_DefaultMargin()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.DefaultMaximumSizeGet">
+            <summary>Sets the stub of Control.get_DefaultMaximumSize()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.DefaultMinimumSizeGet">
+            <summary>Sets the stub of Control.get_DefaultMinimumSize()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.DefaultPaddingGet">
+            <summary>Sets the stub of Control.get_DefaultPadding()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.DefaultSizeGet">
+            <summary>Sets the stub of Form.get_DefaultSize()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.DestroyHandle">
+            <summary>Sets the stub of Control.DestroyHandle()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.DestroyHandle01">
+            <summary>Sets the stub of Control.DestroyHandle()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.DisplayRectangleGet">
+            <summary>Sets the stub of ScrollableControl.get_DisplayRectangle()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.Dispose(System.Boolean)">
+            <summary>Sets the stub of Form1.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.DisposeBoolean">
+            <summary>Sets the stub of Form1.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.DockGet">
+            <summary>Sets the stub of Control.get_Dock()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.DockSetDockStyle">
+            <summary>Sets the stub of Control.set_Dock(DockStyle value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.DoubleBufferedGet">
+            <summary>Sets the stub of Control.get_DoubleBuffered()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.DoubleBufferedSetBoolean">
+            <summary>Sets the stub of Control.set_DoubleBuffered(Boolean value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.FocusedGet">
+            <summary>Sets the stub of Control.get_Focused()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.FontGet">
+            <summary>Sets the stub of Control.get_Font()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.FontSetFont">
+            <summary>Sets the stub of Control.set_Font(Font value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ForeColorGet">
+            <summary>Sets the stub of Control.get_ForeColor()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ForeColorSetColor">
+            <summary>Sets the stub of Control.set_ForeColor(Color value)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.GetAccessibilityObjectById(System.Int32)">
+            <summary>Sets the stub of Control.GetAccessibilityObjectById(Int32 objectId)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.GetAccessibilityObjectByIdInt32">
+            <summary>Sets the stub of Control.GetAccessibilityObjectById(Int32 objectId)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.GetPreferredSize(System.Drawing.Size)">
+            <summary>Sets the stub of Control.GetPreferredSize(Size proposedSize)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.GetPreferredSizeSize">
+            <summary>Sets the stub of Control.GetPreferredSize(Size proposedSize)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.GetScaledBounds(System.Drawing.Rectangle,System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>Sets the stub of Form.GetScaledBounds(Rectangle bounds, SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.GetScaledBoundsRectangleSizeFBoundsSpecified">
+            <summary>Sets the stub of Form.GetScaledBounds(Rectangle bounds, SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.GetService(System.Type)">
+            <summary>Sets the stub of Component.GetService(Type service)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.GetServiceType">
+            <summary>Sets the stub of Component.GetService(Type service)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ImeModeBaseGet">
+            <summary>Sets the stub of Control.get_ImeModeBase()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ImeModeBaseSetImeMode">
+            <summary>Sets the stub of Control.set_ImeModeBase(ImeMode value)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.InitLayout">
+            <summary>Sets the stub of Control.InitLayout()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.InitLayout01">
+            <summary>Sets the stub of Control.InitLayout()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.InitializeStub">
+            <summary>Initializes a new instance of type StubForm1</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.IsInputChar(System.Char)">
+            <summary>Sets the stub of Control.IsInputChar(Char charCode)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.IsInputCharChar">
+            <summary>Sets the stub of Control.IsInputChar(Char charCode)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.IsInputKey(System.Windows.Forms.Keys)">
+            <summary>Sets the stub of Control.IsInputKey(Keys keyData)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.IsInputKeyKeys">
+            <summary>Sets the stub of Control.IsInputKey(Keys keyData)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.LayoutEngineGet">
+            <summary>Sets the stub of Control.get_LayoutEngine()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.MaximumSizeGet">
+            <summary>Sets the stub of Form.get_MaximumSize()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.MaximumSizeSetSize">
+            <summary>Sets the stub of Form.set_MaximumSize(Size value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.MinimumSizeGet">
+            <summary>Sets the stub of Form.get_MinimumSize()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.MinimumSizeSetSize">
+            <summary>Sets the stub of Form.set_MinimumSize(Size value)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.NotifyInvalidate(System.Drawing.Rectangle)">
+            <summary>Sets the stub of Control.NotifyInvalidate(Rectangle invalidatedArea)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.NotifyInvalidateRectangle">
+            <summary>Sets the stub of Control.NotifyInvalidate(Rectangle invalidatedArea)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnActivated(System.EventArgs)">
+            <summary>Sets the stub of Form.OnActivated(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnActivatedEventArgs">
+            <summary>Sets the stub of Form.OnActivated(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnAutoSizeChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnAutoSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnAutoSizeChangedEventArgs">
+            <summary>Sets the stub of Control.OnAutoSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnAutoValidateChanged(System.EventArgs)">
+            <summary>Sets the stub of ContainerControl.OnAutoValidateChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnAutoValidateChangedEventArgs">
+            <summary>Sets the stub of ContainerControl.OnAutoValidateChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnBackColorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnBackColorChangedEventArgs">
+            <summary>Sets the stub of Control.OnBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnBackgroundImageChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnBackgroundImageChangedEventArgs">
+            <summary>Sets the stub of Form.OnBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnBackgroundImageLayoutChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnBackgroundImageLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnBackgroundImageLayoutChangedEventArgs">
+            <summary>Sets the stub of Form.OnBackgroundImageLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnBindingContextChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnBindingContextChangedEventArgs">
+            <summary>Sets the stub of Control.OnBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnCausesValidationChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnCausesValidationChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnCausesValidationChangedEventArgs">
+            <summary>Sets the stub of Control.OnCausesValidationChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnChangeUICues(System.Windows.Forms.UICuesEventArgs)">
+            <summary>Sets the stub of Control.OnChangeUICues(UICuesEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnChangeUICuesUICuesEventArgs">
+            <summary>Sets the stub of Control.OnChangeUICues(UICuesEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnClick(System.EventArgs)">
+            <summary>Sets the stub of Control.OnClick(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnClickEventArgs">
+            <summary>Sets the stub of Control.OnClick(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnClientSizeChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnClientSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnClientSizeChangedEventArgs">
+            <summary>Sets the stub of Control.OnClientSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnClosed(System.EventArgs)">
+            <summary>Sets the stub of Form.OnClosed(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnClosedEventArgs">
+            <summary>Sets the stub of Form.OnClosed(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>Sets the stub of Form.OnClosing(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnClosingCancelEventArgs">
+            <summary>Sets the stub of Form.OnClosing(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnContextMenuChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnContextMenuChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnContextMenuChangedEventArgs">
+            <summary>Sets the stub of Control.OnContextMenuChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnContextMenuStripChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnContextMenuStripChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnContextMenuStripChangedEventArgs">
+            <summary>Sets the stub of Control.OnContextMenuStripChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnControlAdded(System.Windows.Forms.ControlEventArgs)">
+            <summary>Sets the stub of Control.OnControlAdded(ControlEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnControlAddedControlEventArgs">
+            <summary>Sets the stub of Control.OnControlAdded(ControlEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnControlRemoved(System.Windows.Forms.ControlEventArgs)">
+            <summary>Sets the stub of Control.OnControlRemoved(ControlEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnControlRemovedControlEventArgs">
+            <summary>Sets the stub of Control.OnControlRemoved(ControlEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnCreateControl">
+            <summary>Sets the stub of Form.OnCreateControl()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnCreateControl01">
+            <summary>Sets the stub of Form.OnCreateControl()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnCursorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnCursorChangedEventArgs">
+            <summary>Sets the stub of Control.OnCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnDeactivate(System.EventArgs)">
+            <summary>Sets the stub of Form.OnDeactivate(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnDeactivateEventArgs">
+            <summary>Sets the stub of Form.OnDeactivate(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnDockChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnDockChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnDockChangedEventArgs">
+            <summary>Sets the stub of Control.OnDockChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnDoubleClick(System.EventArgs)">
+            <summary>Sets the stub of Control.OnDoubleClick(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnDoubleClickEventArgs">
+            <summary>Sets the stub of Control.OnDoubleClick(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnDragDrop(System.Windows.Forms.DragEventArgs)">
+            <summary>Sets the stub of Control.OnDragDrop(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnDragDropDragEventArgs">
+            <summary>Sets the stub of Control.OnDragDrop(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnDragEnter(System.Windows.Forms.DragEventArgs)">
+            <summary>Sets the stub of Control.OnDragEnter(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnDragEnterDragEventArgs">
+            <summary>Sets the stub of Control.OnDragEnter(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnDragLeave(System.EventArgs)">
+            <summary>Sets the stub of Control.OnDragLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnDragLeaveEventArgs">
+            <summary>Sets the stub of Control.OnDragLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnDragOver(System.Windows.Forms.DragEventArgs)">
+            <summary>Sets the stub of Control.OnDragOver(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnDragOverDragEventArgs">
+            <summary>Sets the stub of Control.OnDragOver(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnEnabledChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnEnabledChangedEventArgs">
+            <summary>Sets the stub of Form.OnEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnEnter(System.EventArgs)">
+            <summary>Sets the stub of Form.OnEnter(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnEnterEventArgs">
+            <summary>Sets the stub of Form.OnEnter(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnFontChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnFontChangedEventArgs">
+            <summary>Sets the stub of Form.OnFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnForeColorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnForeColorChangedEventArgs">
+            <summary>Sets the stub of Control.OnForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnFormClosed(System.Windows.Forms.FormClosedEventArgs)">
+            <summary>Sets the stub of Form.OnFormClosed(FormClosedEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnFormClosedFormClosedEventArgs">
+            <summary>Sets the stub of Form.OnFormClosed(FormClosedEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnFormClosing(System.Windows.Forms.FormClosingEventArgs)">
+            <summary>Sets the stub of Form.OnFormClosing(FormClosingEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnFormClosingFormClosingEventArgs">
+            <summary>Sets the stub of Form.OnFormClosing(FormClosingEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnGiveFeedback(System.Windows.Forms.GiveFeedbackEventArgs)">
+            <summary>Sets the stub of Control.OnGiveFeedback(GiveFeedbackEventArgs gfbevent)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnGiveFeedbackGiveFeedbackEventArgs">
+            <summary>Sets the stub of Control.OnGiveFeedback(GiveFeedbackEventArgs gfbevent)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnGotFocus(System.EventArgs)">
+            <summary>Sets the stub of Control.OnGotFocus(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnGotFocusEventArgs">
+            <summary>Sets the stub of Control.OnGotFocus(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnHandleCreated(System.EventArgs)">
+            <summary>Sets the stub of Form.OnHandleCreated(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnHandleCreatedEventArgs">
+            <summary>Sets the stub of Form.OnHandleCreated(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnHandleDestroyed(System.EventArgs)">
+            <summary>Sets the stub of Form.OnHandleDestroyed(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnHandleDestroyedEventArgs">
+            <summary>Sets the stub of Form.OnHandleDestroyed(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnHelpButtonClicked(System.ComponentModel.CancelEventArgs)">
+            <summary>Sets the stub of Form.OnHelpButtonClicked(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnHelpButtonClickedCancelEventArgs">
+            <summary>Sets the stub of Form.OnHelpButtonClicked(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnHelpRequested(System.Windows.Forms.HelpEventArgs)">
+            <summary>Sets the stub of Control.OnHelpRequested(HelpEventArgs hevent)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnHelpRequestedHelpEventArgs">
+            <summary>Sets the stub of Control.OnHelpRequested(HelpEventArgs hevent)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnImeModeChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnImeModeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnImeModeChangedEventArgs">
+            <summary>Sets the stub of Control.OnImeModeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnInputLanguageChanged(System.Windows.Forms.InputLanguageChangedEventArgs)">
+            <summary>Sets the stub of Form.OnInputLanguageChanged(InputLanguageChangedEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnInputLanguageChangedInputLanguageChangedEventArgs">
+            <summary>Sets the stub of Form.OnInputLanguageChanged(InputLanguageChangedEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnInputLanguageChanging(System.Windows.Forms.InputLanguageChangingEventArgs)">
+            <summary>Sets the stub of Form.OnInputLanguageChanging(InputLanguageChangingEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnInputLanguageChangingInputLanguageChangingEventArgs">
+            <summary>Sets the stub of Form.OnInputLanguageChanging(InputLanguageChangingEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnInvalidated(System.Windows.Forms.InvalidateEventArgs)">
+            <summary>Sets the stub of Control.OnInvalidated(InvalidateEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnInvalidatedInvalidateEventArgs">
+            <summary>Sets the stub of Control.OnInvalidated(InvalidateEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+            <summary>Sets the stub of Control.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnKeyDownKeyEventArgs">
+            <summary>Sets the stub of Control.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnKeyPress(System.Windows.Forms.KeyPressEventArgs)">
+            <summary>Sets the stub of Control.OnKeyPress(KeyPressEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnKeyPressKeyPressEventArgs">
+            <summary>Sets the stub of Control.OnKeyPress(KeyPressEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnKeyUp(System.Windows.Forms.KeyEventArgs)">
+            <summary>Sets the stub of Control.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnKeyUpKeyEventArgs">
+            <summary>Sets the stub of Control.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnLayout(System.Windows.Forms.LayoutEventArgs)">
+            <summary>Sets the stub of Form.OnLayout(LayoutEventArgs levent)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnLayoutLayoutEventArgs">
+            <summary>Sets the stub of Form.OnLayout(LayoutEventArgs levent)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnLeave(System.EventArgs)">
+            <summary>Sets the stub of Control.OnLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnLeaveEventArgs">
+            <summary>Sets the stub of Control.OnLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnLoad(System.EventArgs)">
+            <summary>Sets the stub of Form.OnLoad(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnLoadEventArgs">
+            <summary>Sets the stub of Form.OnLoad(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnLocationChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnLocationChangedEventArgs">
+            <summary>Sets the stub of Control.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnLostFocus(System.EventArgs)">
+            <summary>Sets the stub of Control.OnLostFocus(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnLostFocusEventArgs">
+            <summary>Sets the stub of Control.OnLostFocus(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnMarginChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMarginChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnMarginChangedEventArgs">
+            <summary>Sets the stub of Control.OnMarginChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnMaximizedBoundsChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnMaximizedBoundsChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnMaximizedBoundsChangedEventArgs">
+            <summary>Sets the stub of Form.OnMaximizedBoundsChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnMaximumSizeChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnMaximumSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnMaximumSizeChangedEventArgs">
+            <summary>Sets the stub of Form.OnMaximumSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnMdiChildActivate(System.EventArgs)">
+            <summary>Sets the stub of Form.OnMdiChildActivate(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnMdiChildActivateEventArgs">
+            <summary>Sets the stub of Form.OnMdiChildActivate(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnMenuComplete(System.EventArgs)">
+            <summary>Sets the stub of Form.OnMenuComplete(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnMenuCompleteEventArgs">
+            <summary>Sets the stub of Form.OnMenuComplete(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnMenuStart(System.EventArgs)">
+            <summary>Sets the stub of Form.OnMenuStart(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnMenuStartEventArgs">
+            <summary>Sets the stub of Form.OnMenuStart(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnMinimumSizeChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnMinimumSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnMinimumSizeChangedEventArgs">
+            <summary>Sets the stub of Form.OnMinimumSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnMouseCaptureChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMouseCaptureChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnMouseCaptureChangedEventArgs">
+            <summary>Sets the stub of Control.OnMouseCaptureChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnMouseClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnMouseClickMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnMouseDoubleClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseDoubleClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnMouseDoubleClickMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseDoubleClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseDown(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnMouseDownMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseDown(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnMouseEnter(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMouseEnter(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnMouseEnterEventArgs">
+            <summary>Sets the stub of Control.OnMouseEnter(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnMouseHover(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMouseHover(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnMouseHoverEventArgs">
+            <summary>Sets the stub of Control.OnMouseHover(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnMouseLeave(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMouseLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnMouseLeaveEventArgs">
+            <summary>Sets the stub of Control.OnMouseLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnMouseMoveMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseUp(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnMouseUpMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseUp(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnMouseWheel(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of ScrollableControl.OnMouseWheel(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnMouseWheelMouseEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnMouseWheel(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnMove(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMove(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnMoveEventArgs">
+            <summary>Sets the stub of Control.OnMove(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnNotifyMessage(System.Windows.Forms.Message)">
+            <summary>Sets the stub of Control.OnNotifyMessage(Message m)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnNotifyMessageMessage">
+            <summary>Sets the stub of Control.OnNotifyMessage(Message m)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnPaddingChanged(System.EventArgs)">
+            <summary>Sets the stub of ScrollableControl.OnPaddingChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnPaddingChangedEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnPaddingChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>Sets the stub of Form.OnPaint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnPaintBackground(System.Windows.Forms.PaintEventArgs)">
+            <summary>Sets the stub of ScrollableControl.OnPaintBackground(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnPaintBackgroundPaintEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnPaintBackground(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnPaintPaintEventArgs">
+            <summary>Sets the stub of Form.OnPaint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnParentBackColorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnParentBackColorChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnParentBackgroundImageChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnParentBackgroundImageChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnParentBindingContextChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnParentBindingContextChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnParentChanged(System.EventArgs)">
+            <summary>Sets the stub of ContainerControl.OnParentChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnParentChangedEventArgs">
+            <summary>Sets the stub of ContainerControl.OnParentChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnParentCursorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnParentCursorChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnParentEnabledChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnParentEnabledChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnParentFontChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnParentFontChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnParentForeColorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnParentForeColorChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnParentRightToLeftChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnParentRightToLeftChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnParentVisibleChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnParentVisibleChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnPreviewKeyDown(System.Windows.Forms.PreviewKeyDownEventArgs)">
+            <summary>Sets the stub of Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnPreviewKeyDownPreviewKeyDownEventArgs">
+            <summary>Sets the stub of Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnPrint(System.Windows.Forms.PaintEventArgs)">
+            <summary>Sets the stub of Control.OnPrint(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnPrintPaintEventArgs">
+            <summary>Sets the stub of Control.OnPrint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnQueryContinueDrag(System.Windows.Forms.QueryContinueDragEventArgs)">
+            <summary>Sets the stub of Control.OnQueryContinueDrag(QueryContinueDragEventArgs qcdevent)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnQueryContinueDragQueryContinueDragEventArgs">
+            <summary>Sets the stub of Control.OnQueryContinueDrag(QueryContinueDragEventArgs qcdevent)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnRegionChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnRegionChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnRegionChangedEventArgs">
+            <summary>Sets the stub of Control.OnRegionChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnResize(System.EventArgs)">
+            <summary>Sets the stub of Form.OnResize(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnResizeBegin(System.EventArgs)">
+            <summary>Sets the stub of Form.OnResizeBegin(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnResizeBeginEventArgs">
+            <summary>Sets the stub of Form.OnResizeBegin(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnResizeEnd(System.EventArgs)">
+            <summary>Sets the stub of Form.OnResizeEnd(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnResizeEndEventArgs">
+            <summary>Sets the stub of Form.OnResizeEnd(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnResizeEventArgs">
+            <summary>Sets the stub of Form.OnResize(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnRightToLeftChanged(System.EventArgs)">
+            <summary>Sets the stub of ScrollableControl.OnRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnRightToLeftChangedEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnRightToLeftLayoutChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnRightToLeftLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnRightToLeftLayoutChangedEventArgs">
+            <summary>Sets the stub of Form.OnRightToLeftLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnScroll(System.Windows.Forms.ScrollEventArgs)">
+            <summary>Sets the stub of ScrollableControl.OnScroll(ScrollEventArgs se)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnScrollScrollEventArgs">
+            <summary>Sets the stub of ScrollableControl.OnScroll(ScrollEventArgs se)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnShown(System.EventArgs)">
+            <summary>Sets the stub of Form.OnShown(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnShownEventArgs">
+            <summary>Sets the stub of Form.OnShown(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnSizeChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnSizeChangedEventArgs">
+            <summary>Sets the stub of Control.OnSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnStyleChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnStyleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnStyleChangedEventArgs">
+            <summary>Sets the stub of Form.OnStyleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnSystemColorsChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnSystemColorsChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnSystemColorsChangedEventArgs">
+            <summary>Sets the stub of Control.OnSystemColorsChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnTabIndexChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnTabIndexChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnTabIndexChangedEventArgs">
+            <summary>Sets the stub of Control.OnTabIndexChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnTabStopChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnTabStopChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnTabStopChangedEventArgs">
+            <summary>Sets the stub of Control.OnTabStopChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnTextChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnTextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnTextChangedEventArgs">
+            <summary>Sets the stub of Form.OnTextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnValidated(System.EventArgs)">
+            <summary>Sets the stub of Control.OnValidated(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnValidatedEventArgs">
+            <summary>Sets the stub of Control.OnValidated(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnValidating(System.ComponentModel.CancelEventArgs)">
+            <summary>Sets the stub of Control.OnValidating(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnValidatingCancelEventArgs">
+            <summary>Sets the stub of Control.OnValidating(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.OnVisibleChanged(System.EventArgs)">
+            <summary>Sets the stub of Form.OnVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.OnVisibleChangedEventArgs">
+            <summary>Sets the stub of Form.OnVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.PreProcessMessage(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Control.PreProcessMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.PreProcessMessageMessageRef">
+            <summary>Sets the stub of Control.PreProcessMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
+            <summary>Sets the stub of Form.ProcessCmdKey(Message&amp; msg, Keys keyData)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ProcessCmdKeyMessageRefKeys">
+            <summary>Sets the stub of Form.ProcessCmdKey(Message&amp; msg, Keys keyData)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.ProcessDialogChar(System.Char)">
+            <summary>Sets the stub of Form.ProcessDialogChar(Char charCode)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ProcessDialogCharChar">
+            <summary>Sets the stub of Form.ProcessDialogChar(Char charCode)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.ProcessDialogKey(System.Windows.Forms.Keys)">
+            <summary>Sets the stub of Form.ProcessDialogKey(Keys keyData)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ProcessDialogKeyKeys">
+            <summary>Sets the stub of Form.ProcessDialogKey(Keys keyData)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.ProcessKeyEventArgs(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Control.ProcessKeyEventArgs(Message&amp; m)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ProcessKeyEventArgsMessageRef">
+            <summary>Sets the stub of Control.ProcessKeyEventArgs(Message&amp; m)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.ProcessKeyMessage(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Control.ProcessKeyMessage(Message&amp; m)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ProcessKeyMessageMessageRef">
+            <summary>Sets the stub of Control.ProcessKeyMessage(Message&amp; m)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.ProcessKeyPreview(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Form.ProcessKeyPreview(Message&amp; m)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ProcessKeyPreviewMessageRef">
+            <summary>Sets the stub of Form.ProcessKeyPreview(Message&amp; m)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.ProcessMnemonic(System.Char)">
+            <summary>Sets the stub of Form.ProcessMnemonic(Char charCode)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ProcessMnemonicChar">
+            <summary>Sets the stub of Form.ProcessMnemonic(Char charCode)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.ProcessTabKey(System.Boolean)">
+            <summary>Sets the stub of Form.ProcessTabKey(Boolean forward)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ProcessTabKeyBoolean">
+            <summary>Sets the stub of Form.ProcessTabKey(Boolean forward)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.Refresh">
+            <summary>Sets the stub of Control.Refresh()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.Refresh01">
+            <summary>Sets the stub of Control.Refresh()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.ResetBackColor">
+            <summary>Sets the stub of Control.ResetBackColor()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ResetBackColor01">
+            <summary>Sets the stub of Control.ResetBackColor()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.ResetCursor">
+            <summary>Sets the stub of Control.ResetCursor()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ResetCursor01">
+            <summary>Sets the stub of Control.ResetCursor()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.ResetFont">
+            <summary>Sets the stub of Control.ResetFont()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ResetFont01">
+            <summary>Sets the stub of Control.ResetFont()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.ResetForeColor">
+            <summary>Sets the stub of Control.ResetForeColor()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ResetForeColor01">
+            <summary>Sets the stub of Control.ResetForeColor()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.ResetRightToLeft">
+            <summary>Sets the stub of Control.ResetRightToLeft()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ResetRightToLeft01">
+            <summary>Sets the stub of Control.ResetRightToLeft()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.ResetText">
+            <summary>Sets the stub of Control.ResetText()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ResetText01">
+            <summary>Sets the stub of Control.ResetText()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.RightToLeftGet">
+            <summary>Sets the stub of Control.get_RightToLeft()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.RightToLeftLayoutGet">
+            <summary>Sets the stub of Form.get_RightToLeftLayout()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.RightToLeftLayoutSetBoolean">
+            <summary>Sets the stub of Form.set_RightToLeftLayout(Boolean value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.RightToLeftSetRightToLeft">
+            <summary>Sets the stub of Control.set_RightToLeft(RightToLeft value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ScaleChildrenGet">
+            <summary>Sets the stub of Control.get_ScaleChildren()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.ScaleControl(System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>Sets the stub of Form.ScaleControl(SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ScaleControlSizeFBoundsSpecified">
+            <summary>Sets the stub of Form.ScaleControl(SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.ScaleCore(System.Single,System.Single)">
+            <summary>Sets the stub of Form.ScaleCore(Single x, Single y)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ScaleCoreSingleSingle">
+            <summary>Sets the stub of Form.ScaleCore(Single x, Single y)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.ScrollToControl(System.Windows.Forms.Control)">
+            <summary>Sets the stub of ScrollableControl.ScrollToControl(Control activeControl)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ScrollToControlControl">
+            <summary>Sets the stub of ScrollableControl.ScrollToControl(Control activeControl)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.Select(System.Boolean,System.Boolean)">
+            <summary>Sets the stub of Form.Select(Boolean directed, Boolean forward)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.SelectBooleanBoolean">
+            <summary>Sets the stub of Form.Select(Boolean directed, Boolean forward)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.SetBoundsCore(System.Int32,System.Int32,System.Int32,System.Int32,System.Windows.Forms.BoundsSpecified)">
+            <summary>Sets the stub of Form.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.SetBoundsCoreInt32Int32Int32Int32BoundsSpecified">
+            <summary>Sets the stub of Form.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.SetClientSizeCore(System.Int32,System.Int32)">
+            <summary>Sets the stub of Form.SetClientSizeCore(Int32 x, Int32 y)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.SetClientSizeCoreInt32Int32">
+            <summary>Sets the stub of Form.SetClientSizeCore(Int32 x, Int32 y)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.SetVisibleCore(System.Boolean)">
+            <summary>Sets the stub of Form.SetVisibleCore(Boolean value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.SetVisibleCoreBoolean">
+            <summary>Sets the stub of Form.SetVisibleCore(Boolean value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ShowFocusCuesGet">
+            <summary>Sets the stub of Control.get_ShowFocusCues()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ShowKeyboardCuesGet">
+            <summary>Sets the stub of Control.get_ShowKeyboardCues()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ShowWithoutActivationGet">
+            <summary>Sets the stub of Form.get_ShowWithoutActivation()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.SiteGet">
+            <summary>Sets the stub of Control.get_Site()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.SiteSetISite">
+            <summary>Sets the stub of Control.set_Site(ISite value)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.SizeFromClientSize(System.Drawing.Size)">
+            <summary>Sets the stub of Control.SizeFromClientSize(Size clientSize)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.SizeFromClientSizeSize">
+            <summary>Sets the stub of Control.SizeFromClientSize(Size clientSize)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.TextGet">
+            <summary>Sets the stub of Form.get_Text()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.TextSetString">
+            <summary>Sets the stub of Form.set_Text(String value)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.ToString">
+            <summary>Sets the stub of Form.ToString()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ToString01">
+            <summary>Sets the stub of Form.ToString()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.UpdateDefaultButton">
+            <summary>Sets the stub of Form.UpdateDefaultButton()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.UpdateDefaultButton01">
+            <summary>Sets the stub of Form.UpdateDefaultButton()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.ValidateChildren">
+            <summary>Sets the stub of Form.ValidateChildren()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.ValidateChildren(System.Windows.Forms.ValidationConstraints)">
+            <summary>Sets the stub of Form.ValidateChildren(ValidationConstraints validationConstraints)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ValidateChildren01">
+            <summary>Sets the stub of Form.ValidateChildren()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.ValidateChildrenValidationConstraints">
+            <summary>Sets the stub of Form.ValidateChildren(ValidationConstraints validationConstraints)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubForm1.WndProc(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Form.WndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubForm1.WndProcMessageRef">
+            <summary>Sets the stub of Form.WndProc(Message&amp; m)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.AllowDrop">
+            <summary>Sets the stub of Control.get_AllowDrop()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.Anchor">
+            <summary>Sets the stub of Control.get_Anchor()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.AutoScaleBaseSize">
+            <summary>Sets the stub of Form.get_AutoScaleBaseSize()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.AutoScroll">
+            <summary>Sets the stub of Form.get_AutoScroll()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.AutoScrollOffset">
+            <summary>Sets the stub of Control.get_AutoScrollOffset()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.AutoSize">
+            <summary>Sets the stub of Form.get_AutoSize()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.AutoValidate">
+            <summary>Sets the stub of Form.get_AutoValidate()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.BackColor">
+            <summary>Sets the stub of Form.get_BackColor()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.BackgroundImage">
+            <summary>Sets the stub of Control.get_BackgroundImage()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.BackgroundImageLayout">
+            <summary>Sets the stub of Control.get_BackgroundImageLayout()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.BindingContext">
+            <summary>Sets the stub of ContainerControl.get_BindingContext()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.CanEnableIme">
+            <summary>Sets the stub of ContainerControl.get_CanEnableIme()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.CanRaiseEvents">
+            <summary>Sets the stub of Control.get_CanRaiseEvents()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.ContextMenu">
+            <summary>Sets the stub of Control.get_ContextMenu()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.ContextMenuStrip">
+            <summary>Sets the stub of Control.get_ContextMenuStrip()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.CreateParams">
+            <summary>Sets the stub of Form.get_CreateParams()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.Cursor">
+            <summary>Sets the stub of Control.get_Cursor()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.DefaultCursor">
+            <summary>Sets the stub of Control.get_DefaultCursor()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.DefaultImeMode">
+            <summary>Sets the stub of Form.get_DefaultImeMode()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.DefaultMargin">
+            <summary>Sets the stub of Control.get_DefaultMargin()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.DefaultMaximumSize">
+            <summary>Sets the stub of Control.get_DefaultMaximumSize()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.DefaultMinimumSize">
+            <summary>Sets the stub of Control.get_DefaultMinimumSize()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.DefaultPadding">
+            <summary>Sets the stub of Control.get_DefaultPadding()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.DefaultSize">
+            <summary>Sets the stub of Form.get_DefaultSize()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.DisplayRectangle">
+            <summary>Sets the stub of ScrollableControl.get_DisplayRectangle()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.Dock">
+            <summary>Sets the stub of Control.get_Dock()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.DoubleBuffered">
+            <summary>Sets the stub of Control.get_DoubleBuffered()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.Focused">
+            <summary>Sets the stub of Control.get_Focused()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.Font">
+            <summary>Sets the stub of Control.get_Font()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.ForeColor">
+            <summary>Sets the stub of Control.get_ForeColor()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.ImeModeBase">
+            <summary>Sets the stub of Control.get_ImeModeBase()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.LayoutEngine">
+            <summary>Sets the stub of Control.get_LayoutEngine()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.MaximumSize">
+            <summary>Sets the stub of Form.get_MaximumSize()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.MinimumSize">
+            <summary>Sets the stub of Form.get_MinimumSize()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.RightToLeft">
+            <summary>Sets the stub of Control.get_RightToLeft()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.RightToLeftLayout">
+            <summary>Sets the stub of Form.get_RightToLeftLayout()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.ScaleChildren">
+            <summary>Sets the stub of Control.get_ScaleChildren()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.ShowFocusCues">
+            <summary>Sets the stub of Control.get_ShowFocusCues()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.ShowKeyboardCues">
+            <summary>Sets the stub of Control.get_ShowKeyboardCues()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.ShowWithoutActivation">
+            <summary>Sets the stub of Form.get_ShowWithoutActivation()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.Site">
+            <summary>Sets the stub of Control.get_Site()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubForm1.Text">
+            <summary>Sets the stub of Form.get_Text()</summary>
+        </member>
+        <member name="T:ComboxExtended.Fakes.StubImagedComboBox">
+            <summary>Stub type of ComboxExtended.ImagedComboBox</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.AddItemsCore(System.Object[])">
+            <summary>Sets the stub of ComboBox.AddItemsCore(Object[] value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.AddItemsCoreObjectArray">
+            <summary>Sets the stub of ComboBox.AddItemsCore(Object[] value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.AllowDropGet">
+            <summary>Sets the stub of Control.get_AllowDrop()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.AllowDropSetBoolean">
+            <summary>Sets the stub of Control.set_AllowDrop(Boolean value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.AllowSelectionGet">
+            <summary>Sets the stub of ListControl.get_AllowSelection()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.AnchorGet">
+            <summary>Sets the stub of Control.get_Anchor()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.AnchorSetAnchorStyles">
+            <summary>Sets the stub of Control.set_Anchor(AnchorStyles value)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.AttachBackingFieldToAllowDrop">
+            <summary>Attaches delegates to emulate StubImagedComboBox.AllowDrop as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.AttachBackingFieldToAnchor">
+            <summary>Attaches delegates to emulate StubImagedComboBox.Anchor as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.AttachBackingFieldToAutoScrollOffset">
+            <summary>Attaches delegates to emulate StubImagedComboBox.AutoScrollOffset as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.AttachBackingFieldToAutoSize">
+            <summary>Attaches delegates to emulate StubImagedComboBox.AutoSize as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.AttachBackingFieldToBackColor">
+            <summary>Attaches delegates to emulate StubImagedComboBox.BackColor as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.AttachBackingFieldToBackgroundImage">
+            <summary>Attaches delegates to emulate StubImagedComboBox.BackgroundImage as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.AttachBackingFieldToBackgroundImageLayout">
+            <summary>Attaches delegates to emulate StubImagedComboBox.BackgroundImageLayout as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.AttachBackingFieldToBindingContext">
+            <summary>Attaches delegates to emulate StubImagedComboBox.BindingContext as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.AttachBackingFieldToContextMenu">
+            <summary>Attaches delegates to emulate StubImagedComboBox.ContextMenu as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.AttachBackingFieldToContextMenuStrip">
+            <summary>Attaches delegates to emulate StubImagedComboBox.ContextMenuStrip as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.AttachBackingFieldToCursor">
+            <summary>Attaches delegates to emulate StubImagedComboBox.Cursor as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.AttachBackingFieldToDock">
+            <summary>Attaches delegates to emulate StubImagedComboBox.Dock as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.AttachBackingFieldToDoubleBuffered">
+            <summary>Attaches delegates to emulate StubImagedComboBox.DoubleBuffered as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.AttachBackingFieldToFont">
+            <summary>Attaches delegates to emulate StubImagedComboBox.Font as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.AttachBackingFieldToForeColor">
+            <summary>Attaches delegates to emulate StubImagedComboBox.ForeColor as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.AttachBackingFieldToImeModeBase">
+            <summary>Attaches delegates to emulate StubImagedComboBox.ImeModeBase as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.AttachBackingFieldToMaximumSize">
+            <summary>Attaches delegates to emulate StubImagedComboBox.MaximumSize as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.AttachBackingFieldToMinimumSize">
+            <summary>Attaches delegates to emulate StubImagedComboBox.MinimumSize as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.AttachBackingFieldToRightToLeft">
+            <summary>Attaches delegates to emulate StubImagedComboBox.RightToLeft as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.AttachBackingFieldToSelectedIndex">
+            <summary>Attaches delegates to emulate StubImagedComboBox.SelectedIndex as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.AttachBackingFieldToSite">
+            <summary>Attaches delegates to emulate StubImagedComboBox.Site as a property with a backing field.</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.AttachBackingFieldToText">
+            <summary>Attaches delegates to emulate StubImagedComboBox.Text as a property with a backing field.</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.AutoScrollOffsetGet">
+            <summary>Sets the stub of Control.get_AutoScrollOffset()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.AutoScrollOffsetSetPoint">
+            <summary>Sets the stub of Control.set_AutoScrollOffset(Point value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.AutoSizeGet">
+            <summary>Sets the stub of Control.get_AutoSize()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.AutoSizeSetBoolean">
+            <summary>Sets the stub of Control.set_AutoSize(Boolean value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.BackColorGet">
+            <summary>Sets the stub of ComboBox.get_BackColor()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.BackColorSetColor">
+            <summary>Sets the stub of ComboBox.set_BackColor(Color value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.BackgroundImageGet">
+            <summary>Sets the stub of ComboBox.get_BackgroundImage()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.BackgroundImageLayoutGet">
+            <summary>Sets the stub of ComboBox.get_BackgroundImageLayout()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.BackgroundImageLayoutSetImageLayout">
+            <summary>Sets the stub of ComboBox.set_BackgroundImageLayout(ImageLayout value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.BackgroundImageSetImage">
+            <summary>Sets the stub of ComboBox.set_BackgroundImage(Image value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.BindingContextGet">
+            <summary>Sets the stub of Control.get_BindingContext()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.BindingContextSetBindingContext">
+            <summary>Sets the stub of Control.set_BindingContext(BindingContext value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.CanEnableImeGet">
+            <summary>Sets the stub of Control.get_CanEnableIme()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.CanRaiseEventsGet">
+            <summary>Sets the stub of Control.get_CanRaiseEvents()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ContextMenuGet">
+            <summary>Sets the stub of Control.get_ContextMenu()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ContextMenuSetContextMenu">
+            <summary>Sets the stub of Control.set_ContextMenu(ContextMenu value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ContextMenuStripGet">
+            <summary>Sets the stub of Control.get_ContextMenuStrip()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ContextMenuStripSetContextMenuStrip">
+            <summary>Sets the stub of Control.set_ContextMenuStrip(ContextMenuStrip value)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.CreateAccessibilityInstance">
+            <summary>Sets the stub of ComboBox.CreateAccessibilityInstance()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.CreateAccessibilityInstance01">
+            <summary>Sets the stub of ComboBox.CreateAccessibilityInstance()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.CreateControlsInstance">
+            <summary>Sets the stub of ImagedComboBox.CreateControlsInstance()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.CreateControlsInstance01">
+            <summary>Sets the stub of ImagedComboBox.CreateControlsInstance()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.CreateHandle">
+            <summary>Sets the stub of ComboBox.CreateHandle()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.CreateHandle01">
+            <summary>Sets the stub of ComboBox.CreateHandle()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.CreateParamsGet">
+            <summary>Sets the stub of ComboBox.get_CreateParams()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.CursorGet">
+            <summary>Sets the stub of Control.get_Cursor()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.CursorSetCursor">
+            <summary>Sets the stub of Control.set_Cursor(Cursor value)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.DefWndProc(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Control.DefWndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.DefWndProcMessageRef">
+            <summary>Sets the stub of Control.DefWndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.DefaultCursorGet">
+            <summary>Sets the stub of Control.get_DefaultCursor()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.DefaultImeModeGet">
+            <summary>Sets the stub of Control.get_DefaultImeMode()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.DefaultMarginGet">
+            <summary>Sets the stub of Control.get_DefaultMargin()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.DefaultMaximumSizeGet">
+            <summary>Sets the stub of Control.get_DefaultMaximumSize()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.DefaultMinimumSizeGet">
+            <summary>Sets the stub of Control.get_DefaultMinimumSize()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.DefaultPaddingGet">
+            <summary>Sets the stub of Control.get_DefaultPadding()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.DefaultSizeGet">
+            <summary>Sets the stub of ComboBox.get_DefaultSize()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.DestroyHandle">
+            <summary>Sets the stub of Control.DestroyHandle()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.DestroyHandle01">
+            <summary>Sets the stub of Control.DestroyHandle()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.DisplayRectangleGet">
+            <summary>Sets the stub of Control.get_DisplayRectangle()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.Dispose(System.Boolean)">
+            <summary>Sets the stub of ComboBox.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.DisposeBoolean">
+            <summary>Sets the stub of ComboBox.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.DockGet">
+            <summary>Sets the stub of Control.get_Dock()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.DockSetDockStyle">
+            <summary>Sets the stub of Control.set_Dock(DockStyle value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.DoubleBufferedGet">
+            <summary>Sets the stub of Control.get_DoubleBuffered()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.DoubleBufferedSetBoolean">
+            <summary>Sets the stub of Control.set_DoubleBuffered(Boolean value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.FocusedGet">
+            <summary>Sets the stub of ComboBox.get_Focused()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.FontGet">
+            <summary>Sets the stub of Control.get_Font()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.FontSetFont">
+            <summary>Sets the stub of Control.set_Font(Font value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ForeColorGet">
+            <summary>Sets the stub of ComboBox.get_ForeColor()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ForeColorSetColor">
+            <summary>Sets the stub of ComboBox.set_ForeColor(Color value)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.GetAccessibilityObjectById(System.Int32)">
+            <summary>Sets the stub of Control.GetAccessibilityObjectById(Int32 objectId)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.GetAccessibilityObjectByIdInt32">
+            <summary>Sets the stub of Control.GetAccessibilityObjectById(Int32 objectId)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.GetPreferredSize(System.Drawing.Size)">
+            <summary>Sets the stub of Control.GetPreferredSize(Size proposedSize)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.GetPreferredSizeSize">
+            <summary>Sets the stub of Control.GetPreferredSize(Size proposedSize)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.GetScaledBounds(System.Drawing.Rectangle,System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>Sets the stub of Control.GetScaledBounds(Rectangle bounds, SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.GetScaledBoundsRectangleSizeFBoundsSpecified">
+            <summary>Sets the stub of Control.GetScaledBounds(Rectangle bounds, SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.GetService(System.Type)">
+            <summary>Sets the stub of Component.GetService(Type service)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.GetServiceType">
+            <summary>Sets the stub of Component.GetService(Type service)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ImeModeBaseGet">
+            <summary>Sets the stub of Control.get_ImeModeBase()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ImeModeBaseSetImeMode">
+            <summary>Sets the stub of Control.set_ImeModeBase(ImeMode value)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.InitLayout">
+            <summary>Sets the stub of Control.InitLayout()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.InitLayout01">
+            <summary>Sets the stub of Control.InitLayout()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.InitializeStub">
+            <summary>Initializes a new instance of type StubImagedComboBox</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.IsInputChar(System.Char)">
+            <summary>Sets the stub of Control.IsInputChar(Char charCode)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.IsInputCharChar">
+            <summary>Sets the stub of Control.IsInputChar(Char charCode)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.IsInputKey(System.Windows.Forms.Keys)">
+            <summary>Sets the stub of ComboBox.IsInputKey(Keys keyData)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.IsInputKeyKeys">
+            <summary>Sets the stub of ComboBox.IsInputKey(Keys keyData)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.LayoutEngineGet">
+            <summary>Sets the stub of Control.get_LayoutEngine()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.MaximumSizeGet">
+            <summary>Sets the stub of ComboBox.get_MaximumSize()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.MaximumSizeSetSize">
+            <summary>Sets the stub of ComboBox.set_MaximumSize(Size value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.MinimumSizeGet">
+            <summary>Sets the stub of ComboBox.get_MinimumSize()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.MinimumSizeSetSize">
+            <summary>Sets the stub of ComboBox.set_MinimumSize(Size value)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.NotifyInvalidate(System.Drawing.Rectangle)">
+            <summary>Sets the stub of Control.NotifyInvalidate(Rectangle invalidatedArea)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.NotifyInvalidateRectangle">
+            <summary>Sets the stub of Control.NotifyInvalidate(Rectangle invalidatedArea)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnAutoSizeChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnAutoSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnAutoSizeChangedEventArgs">
+            <summary>Sets the stub of Control.OnAutoSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnBackColorChanged(System.EventArgs)">
+            <summary>Sets the stub of ComboBox.OnBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnBackColorChangedEventArgs">
+            <summary>Sets the stub of ComboBox.OnBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnBackgroundImageChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnBackgroundImageChangedEventArgs">
+            <summary>Sets the stub of Control.OnBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnBackgroundImageLayoutChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnBackgroundImageLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnBackgroundImageLayoutChangedEventArgs">
+            <summary>Sets the stub of Control.OnBackgroundImageLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnBindingContextChanged(System.EventArgs)">
+            <summary>Sets the stub of ListControl.OnBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnBindingContextChangedEventArgs">
+            <summary>Sets the stub of ListControl.OnBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnCausesValidationChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnCausesValidationChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnCausesValidationChangedEventArgs">
+            <summary>Sets the stub of Control.OnCausesValidationChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnChangeUICues(System.Windows.Forms.UICuesEventArgs)">
+            <summary>Sets the stub of Control.OnChangeUICues(UICuesEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnChangeUICuesUICuesEventArgs">
+            <summary>Sets the stub of Control.OnChangeUICues(UICuesEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnClick(System.EventArgs)">
+            <summary>Sets the stub of Control.OnClick(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnClickEventArgs">
+            <summary>Sets the stub of Control.OnClick(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnClientSizeChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnClientSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnClientSizeChangedEventArgs">
+            <summary>Sets the stub of Control.OnClientSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnContextMenuChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnContextMenuChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnContextMenuChangedEventArgs">
+            <summary>Sets the stub of Control.OnContextMenuChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnContextMenuStripChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnContextMenuStripChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnContextMenuStripChangedEventArgs">
+            <summary>Sets the stub of Control.OnContextMenuStripChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnControlAdded(System.Windows.Forms.ControlEventArgs)">
+            <summary>Sets the stub of Control.OnControlAdded(ControlEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnControlAddedControlEventArgs">
+            <summary>Sets the stub of Control.OnControlAdded(ControlEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnControlRemoved(System.Windows.Forms.ControlEventArgs)">
+            <summary>Sets the stub of Control.OnControlRemoved(ControlEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnControlRemovedControlEventArgs">
+            <summary>Sets the stub of Control.OnControlRemoved(ControlEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnCreateControl">
+            <summary>Sets the stub of Control.OnCreateControl()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnCreateControl01">
+            <summary>Sets the stub of Control.OnCreateControl()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnCursorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnCursorChangedEventArgs">
+            <summary>Sets the stub of Control.OnCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnDataSourceChanged(System.EventArgs)">
+            <summary>Sets the stub of ComboBox.OnDataSourceChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnDataSourceChangedEventArgs">
+            <summary>Sets the stub of ComboBox.OnDataSourceChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnDisplayMemberChanged(System.EventArgs)">
+            <summary>Sets the stub of ComboBox.OnDisplayMemberChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnDisplayMemberChangedEventArgs">
+            <summary>Sets the stub of ComboBox.OnDisplayMemberChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnDockChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnDockChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnDockChangedEventArgs">
+            <summary>Sets the stub of Control.OnDockChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnDoubleClick(System.EventArgs)">
+            <summary>Sets the stub of Control.OnDoubleClick(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnDoubleClickEventArgs">
+            <summary>Sets the stub of Control.OnDoubleClick(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnDragDrop(System.Windows.Forms.DragEventArgs)">
+            <summary>Sets the stub of Control.OnDragDrop(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnDragDropDragEventArgs">
+            <summary>Sets the stub of Control.OnDragDrop(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnDragEnter(System.Windows.Forms.DragEventArgs)">
+            <summary>Sets the stub of Control.OnDragEnter(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnDragEnterDragEventArgs">
+            <summary>Sets the stub of Control.OnDragEnter(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnDragLeave(System.EventArgs)">
+            <summary>Sets the stub of Control.OnDragLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnDragLeaveEventArgs">
+            <summary>Sets the stub of Control.OnDragLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnDragOver(System.Windows.Forms.DragEventArgs)">
+            <summary>Sets the stub of Control.OnDragOver(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnDragOverDragEventArgs">
+            <summary>Sets the stub of Control.OnDragOver(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnDrawItem(System.Windows.Forms.DrawItemEventArgs)">
+            <summary>Sets the stub of ComboBox.OnDrawItem(DrawItemEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnDrawItemDrawItemEventArgs">
+            <summary>Sets the stub of ComboBox.OnDrawItem(DrawItemEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnDropDown(System.EventArgs)">
+            <summary>Sets the stub of ComboBox.OnDropDown(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnDropDownClosed(System.EventArgs)">
+            <summary>Sets the stub of ComboBox.OnDropDownClosed(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnDropDownClosedEventArgs">
+            <summary>Sets the stub of ComboBox.OnDropDownClosed(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnDropDownEventArgs">
+            <summary>Sets the stub of ComboBox.OnDropDown(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnDropDownStyleChanged(System.EventArgs)">
+            <summary>Sets the stub of ComboBox.OnDropDownStyleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnDropDownStyleChangedEventArgs">
+            <summary>Sets the stub of ComboBox.OnDropDownStyleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnEnabledChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnEnabledChangedEventArgs">
+            <summary>Sets the stub of Control.OnEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnEnter(System.EventArgs)">
+            <summary>Sets the stub of Control.OnEnter(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnEnterEventArgs">
+            <summary>Sets the stub of Control.OnEnter(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnFontChanged(System.EventArgs)">
+            <summary>Sets the stub of ComboBox.OnFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnFontChangedEventArgs">
+            <summary>Sets the stub of ComboBox.OnFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnForeColorChanged(System.EventArgs)">
+            <summary>Sets the stub of ComboBox.OnForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnForeColorChangedEventArgs">
+            <summary>Sets the stub of ComboBox.OnForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnFormat(System.Windows.Forms.ListControlConvertEventArgs)">
+            <summary>Sets the stub of ListControl.OnFormat(ListControlConvertEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnFormatInfoChanged(System.EventArgs)">
+            <summary>Sets the stub of ListControl.OnFormatInfoChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnFormatInfoChangedEventArgs">
+            <summary>Sets the stub of ListControl.OnFormatInfoChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnFormatListControlConvertEventArgs">
+            <summary>Sets the stub of ListControl.OnFormat(ListControlConvertEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnFormatStringChanged(System.EventArgs)">
+            <summary>Sets the stub of ListControl.OnFormatStringChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnFormatStringChangedEventArgs">
+            <summary>Sets the stub of ListControl.OnFormatStringChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnFormattingEnabledChanged(System.EventArgs)">
+            <summary>Sets the stub of ListControl.OnFormattingEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnFormattingEnabledChangedEventArgs">
+            <summary>Sets the stub of ListControl.OnFormattingEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnGiveFeedback(System.Windows.Forms.GiveFeedbackEventArgs)">
+            <summary>Sets the stub of Control.OnGiveFeedback(GiveFeedbackEventArgs gfbevent)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnGiveFeedbackGiveFeedbackEventArgs">
+            <summary>Sets the stub of Control.OnGiveFeedback(GiveFeedbackEventArgs gfbevent)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnGotFocus(System.EventArgs)">
+            <summary>Sets the stub of ComboBox.OnGotFocus(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnGotFocusEventArgs">
+            <summary>Sets the stub of ComboBox.OnGotFocus(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnHandleCreated(System.EventArgs)">
+            <summary>Sets the stub of ComboBox.OnHandleCreated(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnHandleCreatedEventArgs">
+            <summary>Sets the stub of ComboBox.OnHandleCreated(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnHandleDestroyed(System.EventArgs)">
+            <summary>Sets the stub of ComboBox.OnHandleDestroyed(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnHandleDestroyedEventArgs">
+            <summary>Sets the stub of ComboBox.OnHandleDestroyed(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnHelpRequested(System.Windows.Forms.HelpEventArgs)">
+            <summary>Sets the stub of Control.OnHelpRequested(HelpEventArgs hevent)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnHelpRequestedHelpEventArgs">
+            <summary>Sets the stub of Control.OnHelpRequested(HelpEventArgs hevent)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnImeModeChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnImeModeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnImeModeChangedEventArgs">
+            <summary>Sets the stub of Control.OnImeModeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnInvalidated(System.Windows.Forms.InvalidateEventArgs)">
+            <summary>Sets the stub of Control.OnInvalidated(InvalidateEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnInvalidatedInvalidateEventArgs">
+            <summary>Sets the stub of Control.OnInvalidated(InvalidateEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+            <summary>Sets the stub of ComboBox.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnKeyDownKeyEventArgs">
+            <summary>Sets the stub of ComboBox.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnKeyPress(System.Windows.Forms.KeyPressEventArgs)">
+            <summary>Sets the stub of ComboBox.OnKeyPress(KeyPressEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnKeyPressKeyPressEventArgs">
+            <summary>Sets the stub of ComboBox.OnKeyPress(KeyPressEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnKeyUp(System.Windows.Forms.KeyEventArgs)">
+            <summary>Sets the stub of Control.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnKeyUpKeyEventArgs">
+            <summary>Sets the stub of Control.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnLayout(System.Windows.Forms.LayoutEventArgs)">
+            <summary>Sets the stub of Control.OnLayout(LayoutEventArgs levent)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnLayoutLayoutEventArgs">
+            <summary>Sets the stub of Control.OnLayout(LayoutEventArgs levent)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnLeave(System.EventArgs)">
+            <summary>Sets the stub of Control.OnLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnLeaveEventArgs">
+            <summary>Sets the stub of Control.OnLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnLocationChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnLocationChangedEventArgs">
+            <summary>Sets the stub of Control.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnLostFocus(System.EventArgs)">
+            <summary>Sets the stub of ComboBox.OnLostFocus(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnLostFocusEventArgs">
+            <summary>Sets the stub of ComboBox.OnLostFocus(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnMarginChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMarginChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnMarginChangedEventArgs">
+            <summary>Sets the stub of Control.OnMarginChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnMeasureItem(System.Windows.Forms.MeasureItemEventArgs)">
+            <summary>Sets the stub of ComboBox.OnMeasureItem(MeasureItemEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnMeasureItemMeasureItemEventArgs">
+            <summary>Sets the stub of ComboBox.OnMeasureItem(MeasureItemEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnMouseCaptureChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMouseCaptureChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnMouseCaptureChangedEventArgs">
+            <summary>Sets the stub of Control.OnMouseCaptureChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnMouseClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnMouseClickMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnMouseDoubleClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseDoubleClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnMouseDoubleClickMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseDoubleClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseDown(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnMouseDownMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseDown(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnMouseEnter(System.EventArgs)">
+            <summary>Sets the stub of ComboBox.OnMouseEnter(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnMouseEnterEventArgs">
+            <summary>Sets the stub of ComboBox.OnMouseEnter(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnMouseHover(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMouseHover(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnMouseHoverEventArgs">
+            <summary>Sets the stub of Control.OnMouseHover(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnMouseLeave(System.EventArgs)">
+            <summary>Sets the stub of ComboBox.OnMouseLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnMouseLeaveEventArgs">
+            <summary>Sets the stub of ComboBox.OnMouseLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnMouseMoveMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseUp(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnMouseUpMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseUp(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnMouseWheel(System.Windows.Forms.MouseEventArgs)">
+            <summary>Sets the stub of Control.OnMouseWheel(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnMouseWheelMouseEventArgs">
+            <summary>Sets the stub of Control.OnMouseWheel(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnMove(System.EventArgs)">
+            <summary>Sets the stub of Control.OnMove(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnMoveEventArgs">
+            <summary>Sets the stub of Control.OnMove(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnNotifyMessage(System.Windows.Forms.Message)">
+            <summary>Sets the stub of Control.OnNotifyMessage(Message m)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnNotifyMessageMessage">
+            <summary>Sets the stub of Control.OnNotifyMessage(Message m)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnPaddingChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnPaddingChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnPaddingChangedEventArgs">
+            <summary>Sets the stub of Control.OnPaddingChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>Sets the stub of Control.OnPaint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnPaintBackground(System.Windows.Forms.PaintEventArgs)">
+            <summary>Sets the stub of Control.OnPaintBackground(PaintEventArgs pevent)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnPaintBackgroundPaintEventArgs">
+            <summary>Sets the stub of Control.OnPaintBackground(PaintEventArgs pevent)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnPaintPaintEventArgs">
+            <summary>Sets the stub of Control.OnPaint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnParentBackColorChanged(System.EventArgs)">
+            <summary>Sets the stub of ComboBox.OnParentBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnParentBackColorChangedEventArgs">
+            <summary>Sets the stub of ComboBox.OnParentBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnParentBackgroundImageChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnParentBackgroundImageChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnParentBindingContextChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnParentBindingContextChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnParentChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnParentChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnParentCursorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnParentCursorChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnParentEnabledChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnParentEnabledChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnParentFontChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnParentFontChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnParentForeColorChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnParentForeColorChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnParentRightToLeftChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnParentRightToLeftChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnParentVisibleChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnParentVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnParentVisibleChangedEventArgs">
+            <summary>Sets the stub of Control.OnParentVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnPreviewKeyDown(System.Windows.Forms.PreviewKeyDownEventArgs)">
+            <summary>Sets the stub of Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnPreviewKeyDownPreviewKeyDownEventArgs">
+            <summary>Sets the stub of Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnPrint(System.Windows.Forms.PaintEventArgs)">
+            <summary>Sets the stub of Control.OnPrint(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnPrintPaintEventArgs">
+            <summary>Sets the stub of Control.OnPrint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnQueryContinueDrag(System.Windows.Forms.QueryContinueDragEventArgs)">
+            <summary>Sets the stub of Control.OnQueryContinueDrag(QueryContinueDragEventArgs qcdevent)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnQueryContinueDragQueryContinueDragEventArgs">
+            <summary>Sets the stub of Control.OnQueryContinueDrag(QueryContinueDragEventArgs qcdevent)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnRegionChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnRegionChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnRegionChangedEventArgs">
+            <summary>Sets the stub of Control.OnRegionChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnResize(System.EventArgs)">
+            <summary>Sets the stub of ComboBox.OnResize(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnResizeEventArgs">
+            <summary>Sets the stub of ComboBox.OnResize(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnRightToLeftChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnRightToLeftChangedEventArgs">
+            <summary>Sets the stub of Control.OnRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnSelectedIndexChanged(System.EventArgs)">
+            <summary>Sets the stub of ComboBox.OnSelectedIndexChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnSelectedIndexChangedEventArgs">
+            <summary>Sets the stub of ComboBox.OnSelectedIndexChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnSelectedItemChanged(System.EventArgs)">
+            <summary>Sets the stub of ComboBox.OnSelectedItemChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnSelectedItemChangedEventArgs">
+            <summary>Sets the stub of ComboBox.OnSelectedItemChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnSelectedValueChanged(System.EventArgs)">
+            <summary>Sets the stub of ComboBox.OnSelectedValueChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnSelectedValueChangedEventArgs">
+            <summary>Sets the stub of ComboBox.OnSelectedValueChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnSelectionChangeCommitted(System.EventArgs)">
+            <summary>Sets the stub of ComboBox.OnSelectionChangeCommitted(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnSelectionChangeCommittedEventArgs">
+            <summary>Sets the stub of ComboBox.OnSelectionChangeCommitted(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnSizeChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnSizeChangedEventArgs">
+            <summary>Sets the stub of Control.OnSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnStyleChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnStyleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnStyleChangedEventArgs">
+            <summary>Sets the stub of Control.OnStyleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnSystemColorsChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnSystemColorsChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnSystemColorsChangedEventArgs">
+            <summary>Sets the stub of Control.OnSystemColorsChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnTabIndexChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnTabIndexChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnTabIndexChangedEventArgs">
+            <summary>Sets the stub of Control.OnTabIndexChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnTabStopChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnTabStopChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnTabStopChangedEventArgs">
+            <summary>Sets the stub of Control.OnTabStopChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnTextChanged(System.EventArgs)">
+            <summary>Sets the stub of ComboBox.OnTextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnTextChangedEventArgs">
+            <summary>Sets the stub of ComboBox.OnTextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnTextUpdate(System.EventArgs)">
+            <summary>Sets the stub of ComboBox.OnTextUpdate(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnTextUpdateEventArgs">
+            <summary>Sets the stub of ComboBox.OnTextUpdate(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnValidated(System.EventArgs)">
+            <summary>Sets the stub of Control.OnValidated(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnValidatedEventArgs">
+            <summary>Sets the stub of Control.OnValidated(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnValidating(System.ComponentModel.CancelEventArgs)">
+            <summary>Sets the stub of ComboBox.OnValidating(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnValidatingCancelEventArgs">
+            <summary>Sets the stub of ComboBox.OnValidating(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnValueMemberChanged(System.EventArgs)">
+            <summary>Sets the stub of ListControl.OnValueMemberChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnValueMemberChangedEventArgs">
+            <summary>Sets the stub of ListControl.OnValueMemberChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.OnVisibleChanged(System.EventArgs)">
+            <summary>Sets the stub of Control.OnVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.OnVisibleChangedEventArgs">
+            <summary>Sets the stub of Control.OnVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.PreProcessMessage(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Control.PreProcessMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.PreProcessMessageMessageRef">
+            <summary>Sets the stub of Control.PreProcessMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
+            <summary>Sets the stub of Control.ProcessCmdKey(Message&amp; msg, Keys keyData)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ProcessCmdKeyMessageRefKeys">
+            <summary>Sets the stub of Control.ProcessCmdKey(Message&amp; msg, Keys keyData)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.ProcessDialogChar(System.Char)">
+            <summary>Sets the stub of Control.ProcessDialogChar(Char charCode)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ProcessDialogCharChar">
+            <summary>Sets the stub of Control.ProcessDialogChar(Char charCode)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.ProcessDialogKey(System.Windows.Forms.Keys)">
+            <summary>Sets the stub of Control.ProcessDialogKey(Keys keyData)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ProcessDialogKeyKeys">
+            <summary>Sets the stub of Control.ProcessDialogKey(Keys keyData)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.ProcessKeyEventArgs(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of ComboBox.ProcessKeyEventArgs(Message&amp; m)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ProcessKeyEventArgsMessageRef">
+            <summary>Sets the stub of ComboBox.ProcessKeyEventArgs(Message&amp; m)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.ProcessKeyMessage(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Control.ProcessKeyMessage(Message&amp; m)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ProcessKeyMessageMessageRef">
+            <summary>Sets the stub of Control.ProcessKeyMessage(Message&amp; m)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.ProcessKeyPreview(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of Control.ProcessKeyPreview(Message&amp; m)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ProcessKeyPreviewMessageRef">
+            <summary>Sets the stub of Control.ProcessKeyPreview(Message&amp; m)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.ProcessMnemonic(System.Char)">
+            <summary>Sets the stub of Control.ProcessMnemonic(Char charCode)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ProcessMnemonicChar">
+            <summary>Sets the stub of Control.ProcessMnemonic(Char charCode)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.Refresh">
+            <summary>Sets the stub of Control.Refresh()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.Refresh01">
+            <summary>Sets the stub of Control.Refresh()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.RefreshItem(System.Int32)">
+            <summary>Sets the stub of ComboBox.RefreshItem(Int32 index)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.RefreshItemInt32">
+            <summary>Sets the stub of ComboBox.RefreshItem(Int32 index)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.RefreshItems">
+            <summary>Sets the stub of ComboBox.RefreshItems()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.RefreshItems01">
+            <summary>Sets the stub of ComboBox.RefreshItems()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.ResetBackColor">
+            <summary>Sets the stub of Control.ResetBackColor()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ResetBackColor01">
+            <summary>Sets the stub of Control.ResetBackColor()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.ResetCursor">
+            <summary>Sets the stub of Control.ResetCursor()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ResetCursor01">
+            <summary>Sets the stub of Control.ResetCursor()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.ResetFont">
+            <summary>Sets the stub of Control.ResetFont()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ResetFont01">
+            <summary>Sets the stub of Control.ResetFont()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.ResetForeColor">
+            <summary>Sets the stub of Control.ResetForeColor()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ResetForeColor01">
+            <summary>Sets the stub of Control.ResetForeColor()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.ResetRightToLeft">
+            <summary>Sets the stub of Control.ResetRightToLeft()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ResetRightToLeft01">
+            <summary>Sets the stub of Control.ResetRightToLeft()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.ResetText">
+            <summary>Sets the stub of ComboBox.ResetText()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ResetText01">
+            <summary>Sets the stub of ComboBox.ResetText()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.RightToLeftGet">
+            <summary>Sets the stub of Control.get_RightToLeft()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.RightToLeftSetRightToLeft">
+            <summary>Sets the stub of Control.set_RightToLeft(RightToLeft value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ScaleChildrenGet">
+            <summary>Sets the stub of Control.get_ScaleChildren()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.ScaleControl(System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>Sets the stub of ComboBox.ScaleControl(SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ScaleControlSizeFBoundsSpecified">
+            <summary>Sets the stub of ComboBox.ScaleControl(SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.ScaleCore(System.Single,System.Single)">
+            <summary>Sets the stub of Control.ScaleCore(Single dx, Single dy)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ScaleCoreSingleSingle">
+            <summary>Sets the stub of Control.ScaleCore(Single dx, Single dy)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.Select(System.Boolean,System.Boolean)">
+            <summary>Sets the stub of Control.Select(Boolean directed, Boolean forward)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.SelectBooleanBoolean">
+            <summary>Sets the stub of Control.Select(Boolean directed, Boolean forward)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.SelectedIndexGet">
+            <summary>Sets the stub of ComboBox.get_SelectedIndex()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.SelectedIndexSetInt32">
+            <summary>Sets the stub of ComboBox.set_SelectedIndex(Int32 value)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.SetBoundsCore(System.Int32,System.Int32,System.Int32,System.Int32,System.Windows.Forms.BoundsSpecified)">
+            <summary>Sets the stub of ComboBox.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.SetBoundsCoreInt32Int32Int32Int32BoundsSpecified">
+            <summary>Sets the stub of ComboBox.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.SetClientSizeCore(System.Int32,System.Int32)">
+            <summary>Sets the stub of Control.SetClientSizeCore(Int32 x, Int32 y)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.SetClientSizeCoreInt32Int32">
+            <summary>Sets the stub of Control.SetClientSizeCore(Int32 x, Int32 y)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.SetItemCore(System.Int32,System.Object)">
+            <summary>Sets the stub of ComboBox.SetItemCore(Int32 index, Object value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.SetItemCoreInt32Object">
+            <summary>Sets the stub of ComboBox.SetItemCore(Int32 index, Object value)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.SetItemsCore(System.Collections.IList)">
+            <summary>Sets the stub of ComboBox.SetItemsCore(IList value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.SetItemsCoreIList">
+            <summary>Sets the stub of ComboBox.SetItemsCore(IList value)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.SetVisibleCore(System.Boolean)">
+            <summary>Sets the stub of Control.SetVisibleCore(Boolean value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.SetVisibleCoreBoolean">
+            <summary>Sets the stub of Control.SetVisibleCore(Boolean value)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ShowFocusCuesGet">
+            <summary>Sets the stub of Control.get_ShowFocusCues()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ShowKeyboardCuesGet">
+            <summary>Sets the stub of Control.get_ShowKeyboardCues()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.SiteGet">
+            <summary>Sets the stub of Control.get_Site()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.SiteSetISite">
+            <summary>Sets the stub of Control.set_Site(ISite value)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.SizeFromClientSize(System.Drawing.Size)">
+            <summary>Sets the stub of Control.SizeFromClientSize(Size clientSize)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.SizeFromClientSizeSize">
+            <summary>Sets the stub of Control.SizeFromClientSize(Size clientSize)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.TextGet">
+            <summary>Sets the stub of ComboBox.get_Text()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.TextSetString">
+            <summary>Sets the stub of ComboBox.set_Text(String value)</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.ToString">
+            <summary>Sets the stub of ComboBox.ToString()</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.ToString01">
+            <summary>Sets the stub of ComboBox.ToString()</summary>
+        </member>
+        <member name="M:ComboxExtended.Fakes.StubImagedComboBox.WndProc(System.Windows.Forms.Message@)">
+            <summary>Sets the stub of ComboBox.WndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:ComboxExtended.Fakes.StubImagedComboBox.WndProcMessageRef">
+            <summary>Sets the stub of ComboBox.WndProc(Message&amp; m)</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.AllowDrop">
+            <summary>Sets the stub of Control.get_AllowDrop()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.AllowSelection">
+            <summary>Sets the stub of ListControl.get_AllowSelection()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.Anchor">
+            <summary>Sets the stub of Control.get_Anchor()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.AutoScrollOffset">
+            <summary>Sets the stub of Control.get_AutoScrollOffset()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.AutoSize">
+            <summary>Sets the stub of Control.get_AutoSize()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.BackColor">
+            <summary>Sets the stub of ComboBox.get_BackColor()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.BackgroundImage">
+            <summary>Sets the stub of ComboBox.get_BackgroundImage()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.BackgroundImageLayout">
+            <summary>Sets the stub of ComboBox.get_BackgroundImageLayout()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.BindingContext">
+            <summary>Sets the stub of Control.get_BindingContext()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.CanEnableIme">
+            <summary>Sets the stub of Control.get_CanEnableIme()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.CanRaiseEvents">
+            <summary>Sets the stub of Control.get_CanRaiseEvents()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.ContextMenu">
+            <summary>Sets the stub of Control.get_ContextMenu()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.ContextMenuStrip">
+            <summary>Sets the stub of Control.get_ContextMenuStrip()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.CreateParams">
+            <summary>Sets the stub of ComboBox.get_CreateParams()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.Cursor">
+            <summary>Sets the stub of Control.get_Cursor()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.DefaultCursor">
+            <summary>Sets the stub of Control.get_DefaultCursor()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.DefaultImeMode">
+            <summary>Sets the stub of Control.get_DefaultImeMode()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.DefaultMargin">
+            <summary>Sets the stub of Control.get_DefaultMargin()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.DefaultMaximumSize">
+            <summary>Sets the stub of Control.get_DefaultMaximumSize()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.DefaultMinimumSize">
+            <summary>Sets the stub of Control.get_DefaultMinimumSize()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.DefaultPadding">
+            <summary>Sets the stub of Control.get_DefaultPadding()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.DefaultSize">
+            <summary>Sets the stub of ComboBox.get_DefaultSize()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.DisplayRectangle">
+            <summary>Sets the stub of Control.get_DisplayRectangle()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.Dock">
+            <summary>Sets the stub of Control.get_Dock()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.DoubleBuffered">
+            <summary>Sets the stub of Control.get_DoubleBuffered()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.Focused">
+            <summary>Sets the stub of ComboBox.get_Focused()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.Font">
+            <summary>Sets the stub of Control.get_Font()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.ForeColor">
+            <summary>Sets the stub of ComboBox.get_ForeColor()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.ImeModeBase">
+            <summary>Sets the stub of Control.get_ImeModeBase()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.LayoutEngine">
+            <summary>Sets the stub of Control.get_LayoutEngine()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.MaximumSize">
+            <summary>Sets the stub of ComboBox.get_MaximumSize()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.MinimumSize">
+            <summary>Sets the stub of ComboBox.get_MinimumSize()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.RightToLeft">
+            <summary>Sets the stub of Control.get_RightToLeft()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.ScaleChildren">
+            <summary>Sets the stub of Control.get_ScaleChildren()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.SelectedIndex">
+            <summary>Sets the stub of ComboBox.get_SelectedIndex()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.ShowFocusCues">
+            <summary>Sets the stub of Control.get_ShowFocusCues()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.ShowKeyboardCues">
+            <summary>Sets the stub of Control.get_ShowKeyboardCues()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.Site">
+            <summary>Sets the stub of Control.get_Site()</summary>
+        </member>
+        <member name="P:ComboxExtended.Fakes.StubImagedComboBox.Text">
+            <summary>Sets the stub of ComboBox.get_Text()</summary>
+        </member>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.ImagedComboBoxDelegates">
+            <summary>Contains custom delegates used for the stubs and shims of ImagedComboBox</summary>
+        </member>
+    </members>
+</doc>

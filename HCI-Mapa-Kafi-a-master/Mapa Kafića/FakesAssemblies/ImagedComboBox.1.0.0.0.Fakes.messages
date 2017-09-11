@@ -1,0 +1,5 @@
+D:\HCI\HCI-Mapa-Kafi-a\Mapa Kafića\Fakes\ImagedComboBox.fakes : warning : Cannot generate stub for ComboxExtended.Program: type is sealed.
+D:\HCI\HCI-Mapa-Kafi-a\Mapa Kafića\Fakes\ImagedComboBox.fakes : warning : Cannot generate stub for ComboxExtended.Properties.Resources: type is not visible to exported or assembly(ImagedComboBox.1.0.0.0.Fakes).
+D:\HCI\HCI-Mapa-Kafi-a\Mapa Kafića\Fakes\ImagedComboBox.fakes : warning : Cannot generate shim for ComboxExtended.Program: type is not visible to exported or assembly(ImagedComboBox.1.0.0.0.Fakes).
+D:\HCI\HCI-Mapa-Kafi-a\Mapa Kafića\Fakes\ImagedComboBox.fakes : warning : Cannot generate shim for ComboxExtended.ImagedComboBox+<>c__DisplayClass3: type is not supported because of internal limitations.
+D:\HCI\HCI-Mapa-Kafi-a\Mapa Kafića\Fakes\ImagedComboBox.fakes : warning : Cannot generate shim for ComboxExtended.Properties.Resources: type is not visible to exported or assembly(ImagedComboBox.1.0.0.0.Fakes).

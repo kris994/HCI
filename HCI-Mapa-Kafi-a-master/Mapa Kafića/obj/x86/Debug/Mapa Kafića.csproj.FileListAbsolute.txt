@@ -1,0 +1,35 @@
+E:\HCI\Mapa Kafića\Mapa Kafića\bin\Debug\Mapa Kafića.exe
+E:\HCI\Mapa Kafića\Mapa Kafića\bin\Debug\Mapa Kafića.pdb
+E:\HCI\Mapa Kafića\Mapa Kafića\obj\x86\Debug\Mapa_Kafića.Properties.Resources.resources
+E:\HCI\Mapa Kafića\Mapa Kafića\obj\x86\Debug\Mapa Kafića.csproj.GenerateResource.Cache
+E:\HCI\Mapa Kafića\Mapa Kafića\obj\x86\Debug\Mapa Kafića.exe
+E:\HCI\Mapa Kafića\Mapa Kafića\obj\x86\Debug\Mapa Kafića.pdb
+E:\HCI\Mapa Kafića\Mapa Kafića\obj\x86\Debug\Mapa Kafića.csprojResolveAssemblyReference.cache
+E:\HCI\Mapa Kafića\Mapa Kafića\obj\x86\Debug\Mapa_Kafića.PrikazTabelarno.resources
+E:\HCI\Mapa Kafića\Mapa Kafića\obj\x86\Debug\Mapa_Kafića.Pocetna.resources
+E:\HCI\Mapa Kafića\Mapa Kafića\obj\x86\Debug\Mapa_Kafića.DodavanjeKafica.resources
+E:\HCI\Mapa Kafića\Mapa Kafića\bin\Debug\EntityFramework.dll
+E:\HCI\Mapa Kafića\Mapa Kafića\obj\x86\Debug\Mapa_Kafića.Tip.resources
+E:\HCI\Mapa Kafića\Mapa Kafića\bin\Debug\Mapa Kafića.exe.config
+E:\HCI\Mapa Kafića\Mapa Kafića\obj\x86\Debug\Mapa_Kafića.TipPrikaz.resources
+E:\HCI\Mapa Kafića\Mapa Kafića\obj\x86\Debug\Mapa_Kafića.DodajEtiketu.resources
+E:\HCI\Mapa Kafića\Mapa Kafića\obj\x86\Debug\Mapa_Kafića.EtiketaPrikaz.resources
+D:\HCI\HCI-Mapa-Kafi-a\Mapa Kafića\obj\x86\Debug\Mapa_Kafića.DodajEtiketu.resources
+D:\HCI\HCI-Mapa-Kafi-a\Mapa Kafića\obj\x86\Debug\Mapa_Kafića.DodavanjeKafica.resources
+D:\HCI\HCI-Mapa-Kafi-a\Mapa Kafića\obj\x86\Debug\Mapa_Kafića.Tip.resources
+D:\HCI\HCI-Mapa-Kafi-a\Mapa Kafića\obj\x86\Debug\Mapa_Kafića.EtiketaPrikaz.resources
+D:\HCI\HCI-Mapa-Kafi-a\Mapa Kafića\obj\x86\Debug\Mapa_Kafića.PrikazTabelarno.resources
+D:\HCI\HCI-Mapa-Kafi-a\Mapa Kafića\obj\x86\Debug\Mapa_Kafića.Pocetna.resources
+D:\HCI\HCI-Mapa-Kafi-a\Mapa Kafića\obj\x86\Debug\Mapa_Kafića.Properties.Resources.resources
+D:\HCI\HCI-Mapa-Kafi-a\Mapa Kafića\obj\x86\Debug\Mapa_Kafića.TipPrikaz.resources
+D:\HCI\HCI-Mapa-Kafi-a\Mapa Kafića\obj\x86\Debug\Mapa Kafića.csproj.GenerateResource.Cache
+D:\HCI\HCI-Mapa-Kafi-a\Mapa Kafića\bin\Debug\Mapa Kafića.exe.config
+D:\HCI\HCI-Mapa-Kafi-a\Mapa Kafića\bin\Debug\Mapa Kafića.exe
+D:\HCI\HCI-Mapa-Kafi-a\Mapa Kafića\bin\Debug\Mapa Kafića.pdb
+D:\HCI\HCI-Mapa-Kafi-a\Mapa Kafića\bin\Debug\EntityFramework.dll
+D:\HCI\HCI-Mapa-Kafi-a\Mapa Kafića\bin\Debug\ImagedComboBox.exe
+D:\HCI\HCI-Mapa-Kafi-a\Mapa Kafića\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+D:\HCI\HCI-Mapa-Kafi-a\Mapa Kafića\bin\Debug\System.Data.SQLite.dll
+D:\HCI\HCI-Mapa-Kafi-a\Mapa Kafića\bin\Debug\ImagedComboBox.pdb
+D:\HCI\HCI-Mapa-Kafi-a\Mapa Kafića\obj\x86\Debug\Mapa Kafića.exe
+D:\HCI\HCI-Mapa-Kafi-a\Mapa Kafića\obj\x86\Debug\Mapa Kafića.pdb
